@@ -51,44 +51,50 @@ This series does neither. Every concept is taught in isolation first, then immed
 ```
 ml-to-llm-45days/
 │
-├── README.md                        ← You are here
-├── requirements.txt                 ← All dependencies
-├── environment.yml                  ← Conda environment
-├── setup.py                         ← Optional package install
+├── README.md                            ← You are here
+├── requirements.txt                     ← All dependencies
+├── environment.yml                      ← Conda environment
 │
-├── phase-1-classical-ml/            ← Days 01–14
-│   ├── day-01-what-is-ml/
-│   │   ├── README.md                ← Day-level notes
-│   │   └── notebook.ipynb
-│   ├── day-02-python-for-ml/
-│   │   └── notebook.ipynb
-│   ├── ...
-│   └── day-14-mini-project-churn/
+├── module-01-python-engineering/
+│   ├── README.md                        ← Module overview & syllabus
+│   ├── 01-python-internals.ipynb
+│   ├── 02-oop-and-design-patterns.ipynb
+│   ├── 03-file-io-and-apis.ipynb
+│   └── mini-project/
 │       ├── README.md
-│       ├── notebook.ipynb
-│       └── dataset/
+│       └── notebook.ipynb
 │
-├── phase-2-unsupervised-ml/         ← Days 15–22
-├── phase-3-deep-learning/           ← Days 23–32
-├── phase-4-llm-finetuning/          ← Days 33–40
-├── phase-5-genai-capstone/          ← Days 41–45
+├── module-02-math-for-ai/
+├── module-03-statistics-probability/
+├── module-04-data-handling-visualisation/
+├── module-05-ml-from-scratch/
+│   ...
+├── module-17-llm-engineering-finetuning/
+├── module-18-rag-ai-product-engineering/
+│   ...
+└── module-31-agi-frontier-models/
 │
-├── datasets/                        ← Shared datasets
+├── datasets/                            ← Shared datasets used across modules
 │   ├── titanic.csv
 │   ├── telco-churn.csv
-│   └── imdb-sentiment/
+│   └── imdb-reviews/
 │
-└── assets/                          ← Images, diagrams
+└── assets/                              ← Diagrams, roadmap images
     └── roadmap.png
 ```
 
-Each day folder follows this consistent structure:
+Each module follows this consistent internal structure:
 
 ```
-day-XX-topic-name/
-├── README.md          ← Concept notes, theory, interview questions
-├── notebook.ipynb     ← Runnable code with inline explanations
-└── practice.md        ← Practice task for the day
+module-XX-topic-name/
+├── README.md           ← Syllabus, concepts covered, interview questions
+├── 01-concept-a.ipynb  ← One notebook per major concept
+├── 02-concept-b.ipynb
+├── 03-concept-c.ipynb
+└── mini-project/
+    ├── README.md        ← Problem statement, deliverables
+    ├── notebook.ipynb   ← Fully worked solution
+    └── dataset/         ← Data if not in shared /datasets
 ```
 
 ---
@@ -141,858 +147,344 @@ python -c "import numpy, pandas, sklearn, torch; print('All good ✓')"
 ## 🗺 Series Roadmap
 
 ```
-Phase 1           Phase 2           Phase 3           Phase 4           Phase 5
-Days 01–14        Days 15–22        Days 23–32        Days 33–40        Days 41–45
-─────────────     ─────────────     ─────────────     ─────────────     ─────────────
-Classical ML  →   Unsupervised  →   Deep Learning →   LLMs & PEFT   →   GenAI &
-& Pipelines       & Advanced ML     & Transformers     & RAG             Capstone
+MODULE 1–4               MODULE 5–9               MODULE 10–16
+──────────────────       ──────────────────       ──────────────────
+Programming &        →   Core ML              →   Deep Learning,
+Math Foundations         Algorithms               CNNs & NLP
+                                                        │
+                                                        ▼
+MODULE 28–31             MODULE 22–27             MODULE 17–21
+──────────────────       ──────────────────       ──────────────────
+Research &           ←   MLOps, Cloud         ←   LLMs, RAG &
+Capstone                 & Deployment             Generative AI
 ```
 
----
-
-## 📅 Day-by-Day Breakdown
+Content is uploaded module by module as it is completed. Each module folder appears in this repo as it goes live — star or watch the repo to get notified.
 
 ---
 
-### Phase 1 — Classical ML & Pipelines
-> **Days 01–14 · Dataset: Titanic · Mini Project: Customer Churn Prediction**
+## 📦 Module Syllabus
 
-The foundation phase. Every topic from data collection to model evaluation, taught on the same Titanic dataset so you can see the full pipeline emerge day by day.
-
----
-
-#### Day 01 — What is AI / ML?
-
-> *Set the stage before writing a single line of code.*
-
-**Concepts covered:**
-- The AI → ML → DL hierarchy — what each term actually means
-- Supervised vs unsupervised vs reinforcement learning
-- Where ML is used and where it isn't (and why that matters)
-- The ML workflow overview: data → features → model → evaluate → deploy
-
-**Why this day exists:**  
-Most people jump into code before understanding the problem space. Day 1 gives you a mental map so every subsequent concept has a place to live.
-
-**Interview questions:**
-1. What is the difference between AI, ML, and Deep Learning?
-2. Give three real-world examples each of supervised and unsupervised learning.
-3. What is the general workflow of an ML project?
+> Each module is a self-contained unit with notebooks, concept notes, and a mini project. Modules are released progressively — check back regularly or watch the repo.
 
 ---
 
-#### Day 02 — Python for ML
+### 🟢 Foundation Modules
 
-> *The three tools you will use every single day.*
+#### Module 1 — Programming & Python Engineering
+Core Python for AI/ML — the language fundamentals every practitioner needs before touching data.
 
-**Concepts covered:**
-- NumPy: arrays, vectorised operations, broadcasting
-- Pandas: DataFrames, Series, `.loc` vs `.iloc`, groupby
-- Matplotlib / Seaborn: line, scatter, histogram, heatmap
-
-**Why NumPy over plain Python lists?**  
-Vectorised operations run in C under the hood — a 10,000-element operation is 50–100× faster than a Python loop. This is not optional knowledge; it directly affects model training time.
-
-**Interview questions:**
-1. What is broadcasting in NumPy?
-2. What is the difference between `.loc` and `.iloc` in Pandas?
-3. When would you use `groupby` over a manual loop?
+`Python internals` · `OOP & design patterns` · `File I/O & APIs` · `Virtual environments` · `Git workflow`
 
 ---
 
-#### Day 03 — Data Collection & Types
+#### Module 2 — Math for AI
+The mathematical building blocks behind every algorithm in this series.
 
-> *What does real-world data actually look like before you clean it?*
-
-**Concepts covered:**
-- Structured vs unstructured vs semi-structured data
-- Common sources: CSV, JSON, SQL databases, APIs, web scraping
-- Loading datasets with Pandas — `read_csv`, `read_json`, `read_sql`
-- First look at a dataset: `.head()`, `.info()`, `.describe()`, `.shape`
-
-**Dataset introduced:** Titanic (`titanic.csv`) — this dataset will be used through Day 9.
-
-**Interview questions:**
-1. What is the difference between structured and unstructured data?
-2. How do you handle a dataset that comes from an API vs a CSV file?
+`Linear algebra` · `Matrix operations` · `Calculus & gradients` · `Probability & Bayes` · `Statistics fundamentals`
 
 ---
 
-#### Day 04 — Data Cleaning
+#### Module 3 — Statistics & Probability for ML
+Going deeper on the statistical thinking that separates guessing from knowing.
 
-> *The step nobody shows you but everyone does.*
-
-**Concepts covered:**
-- What "dirty data" looks like: duplicates, wrong data types, inconsistent formatting
-- Detecting and dropping duplicates with `.duplicated()` and `.drop_duplicates()`
-- Fixing data types: `pd.to_datetime()`, `.astype()`
-- Standardising string columns: `.str.lower()`, `.str.strip()`
-
-**Key insight:**  
-Garbage in → garbage out. A model trained on dirty data will confidently produce wrong predictions. Cleaning is not preprocessing — it is a prerequisite to preprocessing.
-
-**Interview questions:**
-1. How do you detect and handle duplicate rows in Pandas?
-2. What does `.astype()` do and when would you use it?
-3. What is the difference between data cleaning and data preprocessing?
+`Distributions` · `Hypothesis testing` · `Confidence intervals` · `Correlation vs causation` · `A/B testing basics`
 
 ---
 
-#### Day 05 — Missing Values
+#### Module 4 — Data Handling & Visualisation Engineering
+The full data wrangling toolkit — from raw files to insight-ready DataFrames.
 
-> *Not all missing data is equal — the strategy depends on why it's missing.*
-
-**Concepts covered:**
-- MCAR (Missing Completely at Random), MAR, MNAR — the three types and why they matter
-- Visualising missingness: `missingno` library, heatmaps
-- Imputation strategies:
-  - Mean imputation (continuous, no outliers)
-  - Median imputation (continuous, with outliers)
-  - Mode imputation (categorical)
-  - KNN imputer (preserves relationships between features)
-- When to drop rows vs columns
-
-**Why median over mean?**  
-Mean is pulled by outliers. If `Age` has a genuine missing value and also contains some ages of 95+, mean imputation inflates the fill value. Median is robust to this. The choice of imputation strategy is a modeling decision, not a default.
-
-**Interview questions:**
-1. What is the difference between MCAR, MAR, and MNAR?
-2. When would you use KNN imputation over simple mean imputation?
-3. What is the risk of dropping rows with missing values?
+`NumPy` · `Pandas` · `Matplotlib & Seaborn` · `Data cleaning` · `EDA` · `Missing values` · `Outliers`
 
 ---
 
-#### Day 06 — Outliers
+### 🔵 Classical ML Modules
 
-> *Detecting extreme values and deciding what to do with them.*
+#### Module 5 — ML From Scratch (Core Algorithms Implementation)
+Understand algorithms by building them — not just calling `.fit()`.
 
-**Concepts covered:**
-- What is an outlier — and is it always wrong?
-- IQR method: lower fence = Q1 − 1.5×IQR, upper fence = Q3 + 1.5×IQR
-- Z-score method: flag values beyond ±3 standard deviations
-- Box plots and scatter plots for visual detection
-- Three options: remove, cap (winsorization), or keep with justification
-
-**Key insight:**  
-An outlier is not automatically an error. A person who is 210 cm tall is a genuine outlier in height data — removing them would harm your model if height is a real predictor. Always ask *is this an error or an extreme real value?* before removing.
-
-**Interview questions:**
-1. What is the IQR method for detecting outliers?
-2. When would you keep an outlier rather than remove it?
-3. What is winsorization?
+`Linear regression from scratch` · `Gradient descent` · `Logistic regression` · `Decision trees` · `k-NN`
 
 ---
 
-#### Day 07 — Encoding & Feature Scaling
+#### Module 6 — Supervised Learning (Regression + Classification Deep)
+Every major supervised algorithm, when to use each, and how to evaluate them correctly.
 
-> *Converting categories and numbers into a form every ML algorithm can use.*
-
-**Concepts covered:**
-- Why ML algorithms cannot work with raw strings
-- Label encoding vs one-hot encoding — when to use each
-- `LabelEncoder`, `OrdinalEncoder`, `OneHotEncoder` from scikit-learn
-- StandardScaler (zero mean, unit variance) vs MinMaxScaler (0–1 range)
-- **Critical rule: always fit on training data only, then transform both train and test**
-
-**Why do we scale after splitting?**  
-If you scale the entire dataset before splitting, information from the test set leaks into the scaler's parameters (mean and std). This gives you artificially optimistic evaluation results — your model appears to generalise better than it actually does.
-
-**Interview questions:**
-1. What is the difference between label encoding and one-hot encoding?
-2. Why must you fit the scaler on training data only?
-3. When would you use StandardScaler vs MinMaxScaler?
+`Random Forest` · `XGBoost` · `SVMs` · `Naive Bayes` · `Precision / Recall / F1 / AUC` · `Cross-validation`
 
 ---
 
-#### Day 08 — EDA & Visualisation
+#### Module 7 — Unsupervised Learning & Representation Learning
+When you have data but no labels — finding hidden structure.
 
-> *Understand your data before you model it.*
-
-**Concepts covered:**
-- Univariate analysis: distributions, skewness, kurtosis
-- Bivariate analysis: scatter plots, correlation, cross-tabulation
-- Correlation heatmaps with `seaborn.heatmap()`
-- The difference between correlation and causation
-- Using EDA to generate feature engineering hypotheses
-
-**Interview questions:**
-1. What does a correlation coefficient of 0.9 mean?
-2. Why is it dangerous to assume correlation implies causation?
-3. How does EDA inform feature selection?
+`K-Means` · `DBSCAN` · `Hierarchical clustering` · `PCA` · `t-SNE` · `Autoencoders`
 
 ---
 
-#### Day 09 — 🏗 Mini Project: Titanic Survival Analysis
+#### Module 8 — Model Evaluation, Tuning & ML Optimisation
+Move beyond default hyperparameters and learn to systematically improve any model.
 
-> *Apply everything from Days 3–8 on one dataset, end to end.*
-
-**Project goal:** Build a complete data analysis and cleaning pipeline on the Titanic dataset. No modeling yet — the deliverable is a clean, well-documented notebook that could be handed to a colleague.
-
-**What you build:**
-1. Load and inspect the raw dataset
-2. Identify and document all data quality issues
-3. Apply cleaning, imputation, encoding, and scaling
-4. EDA: which features correlate with survival?
-5. Write a one-page summary of findings with charts
-
-**What you must document:** Every single decision — why median for Age, why one-hot for Embarked, why drop Cabin. The reasoning is the deliverable, not just the code.
+`GridSearchCV` · `RandomizedSearch` · `Optuna (Bayesian)` · `Bias-variance tradeoff` · `Calibration`
 
 ---
 
-#### Day 10 — Train/Test Split & Cross-Validation
+#### Module 9 — Feature Engineering & Real-World ML Pipelines
+The step where domain knowledge becomes competitive advantage — and where most courses skip.
 
-> *The single most important rule in machine learning.*
-
-**Concepts covered:**
-- The hold-out split: `train_test_split()` and the `random_state` parameter
-- Why shuffling matters (and when it doesn't — time series)
-- K-fold cross-validation: the idea and `KFold`, `StratifiedKFold`
-- What data leakage is and why it silently ruins models
-
-**Interview questions:**
-1. What is stratified k-fold and when do you need it?
-2. What is data leakage? Give a concrete example.
-3. Why does the test set need to be held out until the very end?
+`Interaction features` · `Encoding strategies` · `Feature selection` · `sklearn Pipelines` · `ColumnTransformer` · `Data leakage`
 
 ---
 
-#### Day 11 — Linear & Logistic Regression
+### 🟣 Deep Learning Modules
 
-> *The baselines you always beat first.*
+#### Module 10 — Neural Network Foundations
+From a single perceptron to a working multi-layer network — built and understood from scratch.
 
-**Concepts covered:**
-- Linear regression: OLS, the normal equation, gradient descent intuition
-- Logistic regression: the sigmoid function, decision boundary, log-loss
-- Implementing both from scratch (numpy) and with scikit-learn
-- Interpreting coefficients
-
-**Interview questions:**
-1. What is the difference between linear and logistic regression?
-2. Why do we use log-loss for classification and not MSE?
-3. What does a coefficient of 2.4 mean in a logistic regression model?
+`Perceptrons` · `Activation functions` · `Loss functions` · `Forward pass` · `Backpropagation` · `Gradient descent`
 
 ---
 
-#### Day 12 — Decision Trees & Ensemble Methods
+#### Module 11 — PyTorch Deep Learning
+The practical toolkit for building, training, and debugging neural networks.
 
-> *Where most beginners get their first real wins.*
-
-**Concepts covered:**
-- Decision tree: Gini impurity vs entropy, recursive splitting
-- Overfitting in trees and how `max_depth` controls it
-- Bagging and Random Forest: why averaging reduces variance
-- Gradient Boosting (XGBoost intro): boosting intuition
-- The bias-variance tradeoff explained visually
-
-**Interview questions:**
-1. What is the difference between bagging and boosting?
-2. Why does a Random Forest generalise better than a single decision tree?
-3. Explain the bias-variance tradeoff in plain language.
+`Tensors & autograd` · `nn.Module` · `Training loops` · `DataLoader` · `GPU acceleration` · `Saving & loading models`
 
 ---
 
-#### Day 13 — Model Evaluation
+#### Module 12 — Advanced Deep Learning Optimisation
+Making models train faster, more stably, and generalise better.
 
-> *Accuracy is not a metric. It's a trap.*
-
-**Concepts covered:**
-- Confusion matrix: TP, TN, FP, FN
-- Precision, recall, F1-score — when each matters
-- ROC curve and AUC — how to read and interpret them
-- The precision-recall tradeoff
-- When accuracy is misleading (imbalanced datasets)
-
-**Key insight:**  
-If 95% of your dataset is class 0, a model that predicts 0 for everything achieves 95% accuracy and is completely useless. Accuracy without context is meaningless on imbalanced data.
-
-**Interview questions:**
-1. When would you optimise for recall over precision?
-2. What does an AUC of 0.5 mean?
-3. How do you handle class imbalance at evaluation time?
+`Dropout` · `Batch normalisation` · `LR schedulers` · `Gradient clipping` · `Mixed precision` · `Early stopping`
 
 ---
 
-#### Day 14 — 🏗 Mini Project: Customer Churn Prediction
+#### Module 13 — CNN & Vision Systems
+Convolutional neural networks — the architecture that made computer vision work.
 
-> *End-to-end classification on the Telco Customer Churn dataset.*
-
-**Project goal:** Predict whether a telecom customer will churn. Full pipeline from raw CSV to evaluated model.
-
-**What you build:**
-1. Load Telco churn dataset
-2. Full cleaning and preprocessing pipeline
-3. Train Logistic Regression and Random Forest
-4. Evaluate both with precision, recall, F1, AUC
-5. Interpret: which features drive churn most?
-6. Write a business-readable summary: *"Customers who X are Y% more likely to churn"*
+`Conv2D & pooling` · `Feature maps` · `CNN from scratch` · `Transfer learning (ResNet, EfficientNet)` · `Grad-CAM`
 
 ---
 
-### Phase 2 — Unsupervised & Advanced ML
-> **Days 15–22 · Dataset: Online Retail · Mini Project: Customer Segmentation**
+#### Module 14 — Advanced Computer Vision
+Beyond classification — detection, segmentation, and modern vision architectures.
+
+`Object detection (YOLO)` · `Semantic segmentation` · `Image augmentation` · `Vision Transformers (ViT)`
 
 ---
 
-#### Day 15 — K-Means Clustering
+### 🟡 NLP & Transformers Modules
 
-> *Finding hidden structure when you have no labels.*
+#### Module 15 — NLP Foundations (Classical + Embeddings)
+Text as data — from bag-of-words to word vectors.
 
-**Concepts covered:**
-- The K-Means algorithm: initialisation, assignment, update
-- Choosing K: the elbow method and silhouette score
-- K-Means++ for better initialisation
-- Limitations of K-Means (spherical clusters, sensitivity to outliers)
-
-**Interview questions:**
-1. How does K-Means initialisation affect the result?
-2. What is the silhouette score and what does a value near 1 mean?
-3. When would K-Means fail?
+`Tokenisation` · `TF-IDF` · `BoW` · `Word2Vec` · `GloVe` · `Text preprocessing pipelines`
 
 ---
 
-#### Day 16 — Dimensionality Reduction (PCA & t-SNE)
+#### Module 16 — Transformers Deep Dive
+The architecture that changed everything — understood from first principles.
 
-> *Fewer features, more signal.*
-
-**Concepts covered:**
-- The curse of dimensionality
-- PCA: principal components, explained variance ratio, choosing n_components
-- t-SNE: when PCA isn't enough, perplexity parameter
-- Visualising high-dimensional data in 2D
-
-**Interview questions:**
-1. What does "explained variance ratio" mean in PCA?
-2. Why is t-SNE non-deterministic?
-3. Can you use PCA output as features for a classifier? What are the tradeoffs?
+`Attention mechanism` · `Scaled dot-product attention` · `Multi-head attention` · `Positional encoding` · `BERT vs GPT` · `HuggingFace Transformers`
 
 ---
 
-#### Day 17 — Support Vector Machines
+### 🔴 LLM & Generative AI Modules
 
-> *Maximum margin classifiers and the kernel trick.*
+#### Module 17 — LLM Engineering & Fine-Tuning
+Working with large language models — from prompt to production fine-tuned adapter.
 
-**Concepts covered:**
-- The hyperplane and margin maximisation
-- Hard vs soft margin (the C parameter)
-- The kernel trick: RBF, polynomial
-- When SVMs outperform tree-based models
-
-**Interview questions:**
-1. What is the kernel trick and why is it useful?
-2. What does the C parameter control in an SVM?
-3. When would you choose an SVM over a Random Forest?
+`LLM landscape` · `Prompt engineering` · `Instruction tuning` · `LoRA & QLoRA` · `PEFT` · `SFTTrainer` · `Adapter merging`
 
 ---
 
-#### Day 18 — Feature Engineering
+#### Module 18 — RAG & AI Product Engineering
+Give your LLM a knowledge base — build retrieval-augmented generation systems that actually work.
 
-> *The step where domain knowledge becomes competitive advantage.*
-
-**Concepts covered:**
-- Creating interaction features
-- Polynomial features with `PolynomialFeatures`
-- Decomposing datetime columns (hour, day of week, is_weekend)
-- Binning continuous features
-- Target encoding (and why you must do it inside cross-validation)
-
-**Interview questions:**
-1. What is target encoding and why is it prone to leakage?
-2. Give an example of a feature interaction that could improve a model.
-3. Why is feature engineering often more valuable than model selection?
+`Embeddings` · `Vector stores (Chroma, FAISS)` · `Chunking strategies` · `LangChain` · `LlamaIndex` · `Agentic RAG` · `RAGAS evaluation`
 
 ---
 
-#### Day 19 — Hyperparameter Tuning
+#### Module 19 — Generative AI Engineering
+Beyond language — images, audio, and multimodal systems.
 
-> *Systematically improving your model — not just guessing.*
-
-**Concepts covered:**
-- Grid search vs random search: tradeoffs
-- `GridSearchCV` and `RandomizedSearchCV`
-- Bayesian optimisation intro (Optuna)
-- The risk of overfitting during tuning — why you need a held-out test set even after CV
-
-**Interview questions:**
-1. What is the difference between a parameter and a hyperparameter?
-2. Why does random search often outperform grid search?
-3. What is the danger of tuning hyperparameters on the test set?
+`Diffusion models` · `Stable Diffusion architecture` · `ControlNet` · `Vision-language models` · `Audio generation` · `GenAI product patterns`
 
 ---
 
-#### Day 20 — Pipelines & Production Readiness
+#### Module 20 — Reinforcement Learning
+Teaching agents to make decisions through reward — from grid worlds to LLM alignment.
 
-> *Package your work so it can actually be deployed.*
-
-**Concepts covered:**
-- `sklearn.pipeline.Pipeline`: chaining preprocessors and models
-- `ColumnTransformer`: applying different transformations to different columns
-- Saving models with `joblib` and `pickle`
-- Reproducibility: `random_state`, seeds, environment files
-
-**Key insight:**  
-A Pipeline is not a convenience — it prevents leakage. When you wrap your scaler and model in a Pipeline, `fit_transform` on training data and `transform` on test data happen automatically in the right order, every time.
-
-**Interview questions:**
-1. What problem does `sklearn.Pipeline` solve?
-2. What is `ColumnTransformer` used for?
-3. How do you ensure a model is reproducible?
+`MDPs & Bellman equations` · `Q-Learning` · `Policy gradient` · `PPO` · `RLHF` · `DPO`
 
 ---
 
-#### Day 21 — 🏗 Mini Project: Customer Segmentation
+#### Module 21 — Multimodal AI Systems
+Models that see, read, and reason across modalities simultaneously.
 
-> *Cluster customers and give each segment a business label.*
-
-**Project goal:** Use K-Means + PCA on the Online Retail dataset to identify customer segments based on RFM (Recency, Frequency, Monetary) features.
-
-**What you build:**
-1. Feature engineering: compute R, F, M per customer
-2. Scale features
-3. K-Means with elbow + silhouette analysis
-4. Reduce to 2D with PCA and visualise segments
-5. Label each cluster with a business interpretation ("High-value dormant", "New active", etc.)
+`Vision-language models` · `CLIP` · `LLaVA` · `Multimodal RAG` · `Audio + vision fusion`
 
 ---
 
-#### Day 22 — Recap & Classical ML Interview Prep
+### ⚙️ Engineering & MLOps Modules
 
-> *Consolidate everything before moving to Deep Learning.*
+#### Module 22 — Data Engineering & Big Data
+Building the data infrastructure that production ML systems depend on.
 
-**What this day covers:**
-- Top 25 classical ML interview questions (answered in the notebook)
-- Common pipeline mistakes and how to catch them
-- What a strong classical ML portfolio looks like
-- Checklist: are you ready for Phase 3?
+`ETL pipelines` · `Apache Spark` · `Airflow` · `Data lakes` · `Feature stores` · `dbt`
 
 ---
 
-### Phase 3 — Deep Learning & Transformers
-> **Days 23–32 · Tools: PyTorch · Mini Projects: Image Classifier, Sentiment Analysis**
+#### Module 23 — Vector Databases & Embedding Systems
+The infrastructure layer behind every modern search and RAG system.
+
+`Qdrant` · `Weaviate` · `Pinecone` · `HNSW indexing` · `Embedding pipelines at scale`
 
 ---
 
-#### Day 23 — Neural Network Foundations
+#### Module 24 — MLOps Foundations
+Reproducible, trackable, automated machine learning — the engineering discipline.
 
-> *From a single perceptron to a multi-layer network.*
-
-**Concepts covered:**
-- The perceptron: weights, bias, activation
-- Multi-layer networks: hidden layers and capacity
-- Activation functions: ReLU, Sigmoid, Tanh — when to use which
-- Loss functions: MSE for regression, CrossEntropy for classification
-- Forward pass step by step
-
-**Interview questions:**
-1. Why does a neural network with no activation functions reduce to linear regression?
-2. What is the vanishing gradient problem and which activations cause it?
-3. What is the purpose of bias in a neuron?
+`Experiment tracking (W&B, MLflow)` · `Model versioning` · `DVC` · `CI for ML` · `Data validation`
 
 ---
 
-#### Day 24 — Backpropagation & PyTorch Basics
+#### Module 25 — Model Deployment & Serving
+From a notebook to a live endpoint that handles real traffic.
 
-> *How neural networks actually learn — and the tools that automate it.*
-
-**Concepts covered:**
-- Backpropagation: chain rule, computing gradients layer by layer
-- PyTorch autograd: `requires_grad`, `.backward()`, `.grad`
-- Tensors: creation, operations, GPU transfer
-- Writing a training loop from scratch: forward → loss → backward → step
-
-**Interview questions:**
-1. What does `optimizer.zero_grad()` do and why is it necessary?
-2. Explain backpropagation to someone without a math background.
-3. What is the difference between `torch.no_grad()` and `model.eval()`?
+`FastAPI` · `Gradio & Streamlit` · `TorchServe` · `ONNX` · `Quantisation & pruning` · `Latency optimisation`
 
 ---
 
-#### Day 25 — CNNs for Computer Vision
+#### Module 26 — Cloud AI Engineering
+Running ML workloads at scale on cloud infrastructure.
 
-> *Why convolutions beat fully connected layers for images.*
-
-**Concepts covered:**
-- The convolution operation: filters, stride, padding
-- Max pooling: spatial downsampling
-- Feature map intuition: early layers detect edges, deep layers detect objects
-- Building a CNN from scratch in PyTorch
-- Training on CIFAR-10
-
-**Interview questions:**
-1. What is the receptive field of a convolutional layer?
-2. Why is weight sharing in CNNs computationally efficient?
-3. What does max pooling do and what information does it discard?
+`AWS SageMaker` · `GCP Vertex AI` · `Azure ML` · `Serverless inference` · `Spot instance training`
 
 ---
 
-#### Day 26 — Transfer Learning
+#### Module 27 — Advanced MLOps & Scaling
+Production-grade ML systems — monitoring, drift detection, and scaling.
 
-> *Don't train from scratch when someone already did the hard work.*
-
-**Concepts covered:**
-- Pretrained models: ResNet, EfficientNet, VGG
-- Feature extraction vs fine-tuning
-- When to freeze layers and when to unfreeze them
-- `torchvision.models` and `model.parameters()`
-
-**Key insight:**  
-A ResNet-50 trained on ImageNet has already learned to detect edges, textures, shapes, and semantic objects. These features transfer — a model fine-tuned on 500 medical images outperforms a model trained from scratch on 50,000 of them.
-
-**Interview questions:**
-1. What is the difference between feature extraction and fine-tuning?
-2. Why do you freeze early layers during fine-tuning?
-3. When does transfer learning not work?
+`Model monitoring` · `Data drift` · `A/B deployment` · `Shadow mode` · `Kubernetes for ML` · `Ray`
 
 ---
 
-#### Day 27 — 🏗 Mini Project: Image Classifier
+### 🏁 Capstone Modules
 
-> *CIFAR-10 — custom CNN vs pretrained model.*
+#### Module 28 — Research Paper Implementation
+Bridge the gap between published research and working code.
 
-**What you build:**
-1. Custom 4-layer CNN trained from scratch on CIFAR-10
-2. Fine-tuned EfficientNet-B0 on the same task
-3. Head-to-head comparison: accuracy, training time, parameter count
-4. Grad-CAM visualisation: what does the model actually look at?
+`Reading papers effectively` · `Implementing from scratch` · `Reproducing results` · `Ablation studies`
 
 ---
 
-#### Day 28 — RNNs & LSTMs
+#### Module 29 — AI System Design & Architecture
+Designing AI systems end-to-end — the skill that matters in system design interviews.
 
-> *Sequence modelling before transformers took over.*
-
-**Concepts covered:**
-- The recurrence equation: hidden state over time
-- The vanishing gradient problem in RNNs
-- LSTM gates: forget, input, output — what each controls
-- When LSTMs are still the right choice (small datasets, long sequences)
-
-**Interview questions:**
-1. What problem do LSTMs solve that vanilla RNNs cannot?
-2. Explain the forget gate in plain language.
-3. Why did transformers largely replace LSTMs?
+`System design for ML` · `Scalability patterns` · `Trade-off analysis` · `Real-world case studies`
 
 ---
 
-#### Day 29 — Attention Mechanism
+#### Module 30 — Enterprise AI Capstone
+A complete, production-grade AI project from problem definition to deployed system.
 
-> *The key idea behind every modern language model.*
-
-**Concepts covered:**
-- The intuition: which words should I look at to understand this word?
-- Query, Key, Value: the three matrices and what they represent
-- Scaled dot-product attention: the formula and why we scale
-- Multi-head attention: multiple attention perspectives in parallel
-- Attention visualisation
-
-**Interview questions:**
-1. What is the Query-Key-Value framework in attention?
-2. Why do we divide by √d_k in scaled dot-product attention?
-3. What does multi-head attention allow a model to learn that single-head cannot?
+`Problem framing` · `Architecture decisions` · `Full pipeline` · `Evaluation` · `Documentation` · `Demo`
 
 ---
 
-#### Day 30 — Transformer Architecture
+#### Module 31 — AGI & Frontier Models Understanding
+The current frontier — what's happening in AI research and where it's heading.
 
-> *"Attention Is All You Need" — what it actually means.*
-
-**Concepts covered:**
-- Encoder and decoder stacks
-- Positional encoding: why and how
-- Layer normalisation vs batch normalisation
-- The full forward pass through a transformer block
-- BERT (encoder-only) vs GPT (decoder-only) vs T5 (encoder-decoder)
-
-**Interview questions:**
-1. Why is positional encoding necessary in a transformer?
-2. What is the difference between BERT and GPT architecturally?
-3. What does the encoder do vs the decoder in a seq2seq transformer?
+`Scaling laws` · `Emergent capabilities` · `Constitutional AI` · `Agent frameworks` · `AI safety fundamentals`
 
 ---
 
-#### Day 31 — Training Tips & Regularisation
+## 🧠 What You Will Learn
 
-> *Make your models actually converge reliably.*
+By the end of this series, you will be able to:
 
-**Concepts covered:**
-- Dropout: what it does, when to use it, and at what rate
-- Batch normalisation: why it stabilises training
-- Learning rate schedulers: cosine annealing, warmup, ReduceLROnPlateau
-- Gradient clipping: preventing exploding gradients in deep networks
-- Mixed precision training with `torch.cuda.amp`
+**Data & Classical ML**
+- [ ] Build end-to-end ML pipelines from raw data to evaluated model
+- [ ] Justify every preprocessing decision — not just copy-paste it
+- [ ] Apply and compare 10+ classical ML algorithms on real datasets
+- [ ] Detect and fix data leakage, class imbalance, and overfitting
 
-**Interview questions:**
-1. What does dropout do during training vs inference?
-2. Why does learning rate warmup help transformer training?
-3. What is gradient clipping and when is it necessary?
+**Deep Learning**
+- [ ] Implement neural networks from scratch using PyTorch
+- [ ] Build and fine-tune CNNs for computer vision tasks
+- [ ] Understand the transformer architecture from attention to output
+- [ ] Train models that actually converge with proper regularisation
 
----
+**LLMs & Modern AI**
+- [ ] Fine-tune open-weight LLMs using LoRA and QLoRA on consumer hardware
+- [ ] Build production RAG systems with vector search and LangChain
+- [ ] Design and ship full AI-powered applications with FastAPI + Gradio
+- [ ] Evaluate LLM systems with RAGAS and other modern frameworks
 
-#### Day 32 — 🏗 Mini Project: Sentiment Analysis with Transformers
-
-> *Fine-tune a small transformer on IMDb reviews.*
-
-**What you build:**
-1. Load IMDb dataset via HuggingFace Datasets
-2. Tokenise with `DistilBERT` tokenizer
-3. Fine-tune `distilbert-base-uncased` with HuggingFace Trainer
-4. Evaluate: precision, recall, F1
-5. Error analysis: which reviews does the model get wrong and why?
-
----
-
-### Phase 4 — LLMs, Fine-Tuning & RAG
-> **Days 33–40 · Tools: HuggingFace, PEFT, LangChain · Mini Project: RAG Chatbot**
+**Engineering & Career**
+- [ ] Track experiments, version models, and build reproducible pipelines
+- [ ] Answer 100+ ML interview questions that come up in technical rounds
+- [ ] Maintain a GitHub portfolio of 7 working projects across all phases
+- [ ] Read and implement AI research papers independently
 
 ---
 
-#### Day 33 — The LLM Landscape
+## 👤 Who Should Follow This Series?
 
-> *What exists, how it's different, and why it matters.*
+This series is designed to work across different starting points. Find yourself below:
 
-**Concepts covered:**
-- The model families: GPT, LLaMA, Mistral, Gemma, Phi
-- Closed-weight (GPT-4, Claude) vs open-weight (LLaMA 3, Mistral)
-- Context window, tokens, and why token count matters for cost
-- Benchmarks: MMLU, HumanEval, MT-Bench — what they measure
-- Responsible use: model cards, bias, hallucination
+**✅ Perfect fit:**
 
-**Interview questions:**
-1. What is the difference between a closed-weight and an open-weight model?
-2. What is a context window and why does it limit LLM applications?
-3. What is hallucination in LLMs and why does it happen?
+| Profile | Why this works for you |
+|---|---|
+| **CS / engineering student** wanting to enter AI/ML | Structured depth that goes beyond what courses cover, with interview prep built in |
+| **Self-taught developer** with Python experience | Closes the gap between knowing syntax and knowing *how ML systems actually work* |
+| **Complete beginner** to both Python and ML | Everything is explained from scratch — no assumed knowledge, ever |
+| **Developer pivoting to AI** from another stack | Practical, engineering-first approach — you'll build things, not just read theory |
+| **Someone who took a course but feels lost in practice** | Bridges the gap between tutorials and the "glue code" that real projects need |
 
----
+**⚠️ You may need to supplement if:**
+- You are already working as an ML engineer and want cutting-edge research depth — pair this with papers and arXiv
+- You want a university-level mathematical treatment — pair with a linear algebra or probability textbook
+- You need certification — this repo does not issue certificates, but the portfolio you build is more valuable
 
-#### Day 34 — Prompt Engineering
-
-> *The fastest way to improve LLM output — no training required.*
-
-**Concepts covered:**
-- Zero-shot, one-shot, few-shot prompting
-- Chain-of-thought (CoT) prompting
-- System prompts and persona setting
-- Structured output prompting (JSON, XML)
-- Common failure modes: prompt injection, instruction following failures
-
-**Interview questions:**
-1. What is chain-of-thought prompting and why does it improve reasoning?
-2. What is the difference between a system prompt and a user prompt?
-3. How do you prompt an LLM to return structured JSON reliably?
+**❌ Not designed for:**
+- People who want to use AI tools (ChatGPT, Midjourney) without understanding what's under the hood
+- People looking for a passive learning experience — every module has code to write and questions to answer
 
 ---
 
-#### Day 35 — Fine-Tuning Foundations
+## 🗓 How to Follow Along
 
-> *When prompting is not enough.*
+This is a **self-paced** series. There is no fixed schedule — go at whatever speed lets you actually understand and implement each module before moving on.
 
-**Concepts covered:**
-- Why fine-tune: domain adaptation, consistent format, capability injection
-- Full fine-tuning vs parameter-efficient fine-tuning (PEFT)
-- Instruction tuning: Alpaca format, ShareGPT format
-- Dataset preparation: prompt templates, tokenisation, padding strategy
-- Catastrophic forgetting: what it is and how to mitigate it
+**Suggested pace for different goals:**
 
-**Interview questions:**
-1. When would you fine-tune a model instead of prompting it?
-2. What is instruction tuning?
-3. What is catastrophic forgetting and how do you avoid it?
-
----
-
-#### Day 36 — LoRA & QLoRA Deep Dive
-
-> *The practical path to fine-tuning on consumer hardware.*
-
-**Concepts covered:**
-- The intrinsic dimensionality hypothesis: why most weight updates live in a low-rank subspace
-- LoRA: decompose ΔW into A × B where rank(A,B) ≪ d
-- Rank (r), alpha (α), and target modules — what each controls
-- QLoRA's three innovations:
-  - 4-bit NormalFloat (NF4): optimal quantisation for normally distributed weights
-  - Double quantisation: quantising the quantisation constants
-  - Paged optimisers: offloading optimizer states to CPU RAM to prevent OOM
-- Adapter merging: combining LoRA weights back into the base model
-
-**Key insight:**  
-LoRA doesn't change what the model knows — it changes what it does with what it knows. The base model's 7B parameters stay frozen. Only ~0.1–1% of additional parameters are trained, making fine-tuning a 7B model possible on a single 16GB GPU.
-
-**Interview questions:**
-1. What is the mathematical idea behind LoRA?
-2. What does the rank parameter r control in LoRA?
-3. What are the three innovations in QLoRA that make it memory-efficient?
-
----
-
-#### Day 37 — HuggingFace Fine-Tuning Lab
-
-> *Code-first: build a working fine-tuning pipeline.*
-
-**Concepts covered:**
-- Full training script with `peft`, `bitsandbytes`, `trl`
-- `BitsAndBytesConfig` for 4-bit loading
-- `LoraConfig`: r, alpha, dropout, target_modules
-- `SFTTrainer`: dataset, tokenisation, training arguments
-- Saving adapters and merging back into base model
-- Evaluating before and after fine-tuning
-
-**What you build:**  
-A complete, runnable fine-tuning script for TinyLlama-1.1B (or Llama 3.2 3B) on a custom instruction dataset.
-
-**Interview questions:**
-1. What does `target_modules` control in a LoRA config?
-2. What is the difference between saving a LoRA adapter and saving a merged model?
-3. What is `SFTTrainer` and how does it differ from HuggingFace's standard `Trainer`?
-
----
-
-#### Day 38 — RAG Fundamentals
-
-> *Give your LLM a knowledge base without retraining it.*
-
-**Concepts covered:**
-- The retrieval-augmented generation architecture
-- Text embeddings: what they represent and how they capture meaning
-- Chunking strategies: fixed-size, sentence-level, semantic
-- Vector stores: Chroma, FAISS — indexing and querying
-- The retrieval pipeline: query → embed → search → retrieve → prompt → generate
-
-**Why RAG instead of fine-tuning?**  
-Fine-tuning teaches a model to *behave* differently. RAG gives it access to *information* it didn't have. For knowledge that changes (company docs, product specs, recent events), RAG is almost always the right choice.
-
-**Interview questions:**
-1. What is the difference between RAG and fine-tuning?
-2. What is chunking and why does chunk size matter?
-3. How does a vector similarity search work?
-
----
-
-#### Day 39 — Advanced RAG & Evaluation
-
-> *Beyond naive retrieval — making RAG actually reliable.*
-
-**Concepts covered:**
-- Retrieval failures: why naive RAG hallucinates
-- Hybrid search: dense + sparse (BM25) retrieval
-- Reranking: cross-encoders for better relevance
-- LangChain retrieval chain: end to end
-- RAGAS evaluation framework: faithfulness, answer relevance, context precision
-
-**Interview questions:**
-1. What is the difference between dense and sparse retrieval?
-2. What does the RAGAS faithfulness metric measure?
-3. What is a reranker and when would you add one to a RAG pipeline?
-
----
-
-#### Day 40 — 🏗 Mini Project: RAG Chatbot
-
-> *Build a Q&A bot over your own document collection.*
-
-**What you build:**
-1. Ingest a set of PDFs or markdown files
-2. Chunk, embed (sentence-transformers), and store in Chroma
-3. Query pipeline with LangChain: retrieve → augment → generate
-4. Evaluate with RAGAS: faithfulness and answer relevance
-5. Gradio interface for live querying
-
----
-
-### Phase 5 — Generative AI & Capstone
-> **Days 41–45 · Final Project: Your Choice**
-
----
-
-#### Day 41 — Generative AI Landscape
-
-> *Beyond language — images, audio, multimodal.*
-
-**Concepts covered:**
-- Diffusion models: the forward and reverse process, DDPM intuition
-- Stable Diffusion architecture: VAE + UNet + CLIP text encoder
-- Vision-language models: CLIP, LLaVA, GPT-4V
-- Audio generation: Whisper, MusicGen
-- The state of multimodal AI as of 2024–2025
-
-**Interview questions:**
-1. What is the core idea behind diffusion models?
-2. What does CLIP do and why is it used in Stable Diffusion?
-3. What is the difference between a text-to-image model and a vision-language model?
-
----
-
-#### Day 42 — Building & Deploying AI Products
-
-> *Your model is useless until someone can use it.*
-
-**Concepts covered:**
-- FastAPI: wrapping a model as a REST endpoint
-- Gradio and Streamlit: rapid demo UIs
-- Dockerising an ML app: `Dockerfile`, `docker-compose`
-- Environment management: `requirements.txt`, `environment.yml`
-- Logging, monitoring, and versioning basics
-
-**Interview questions:**
-1. How do you serve a PyTorch model as a REST API?
-2. What is a Dockerfile and why do you need one for ML deployment?
-3. What is model versioning and why does it matter?
-
----
-
-#### Day 43 — Evaluation & Responsible AI
-
-> *How do you know your model is actually good — and safe?*
-
-**Concepts covered:**
-- LLM evaluation: BLEU, ROUGE, BERTScore, LLM-as-judge
-- Hallucination detection techniques
-- Bias in ML models: types, sources, measurement
-- Safety considerations: refusals, jailbreaks, output filtering
-- Model cards: what they are and why you should write one
-
-**Interview questions:**
-1. What is the difference between BLEU and BERTScore?
-2. How do you measure bias in a classification model?
-3. What is a model card and what should it contain?
-
----
-
-#### Day 44–45 — 🏗 Capstone Project
-
-> *Build, document, and present a complete AI/ML system.*
-
-**Goal:** Design and build a full-stack AI project of your choosing. By this point you have the skills to tackle any of the following — or propose your own.
-
-**Project options:**
-
-| Project | Stack | Core Skills |
+| Goal | Suggested pace | Timeline |
 |---|---|---|
-| AI Career Copilot | TinyLlama + LoRA + Gradio | Fine-tuning, PEFT, deployment |
-| Document Intelligence System | LangChain + Chroma + FastAPI | RAG, embeddings, API serving |
-| Real-time Sentiment Dashboard | DistilBERT + Streamlit | Transformers, classification, UI |
-| Medical Image Classifier | ResNet + Docker | CNN, transfer learning, deployment |
-| Generative Story Writer | Mistral 7B + LoRA | Instruction tuning, generation |
+| Deep understanding, job-ready portfolio | 1–2 modules per week | 4–6 months |
+| Quick survey before going deeper elsewhere | 2–3 modules per week | 2–3 months |
+| Intensive sprint (full-time study) | 1 module per day | ~6 weeks |
 
-**Deliverables:**
-
-- [ ] Working end-to-end system (data → model → interface)
-- [ ] Clean, documented codebase
-- [ ] `README.md` for the project (use this repo's structure as a template)
-- [ ] 3-minute demo video or Loom recording
-- [ ] One-page write-up: problem, approach, results, what you'd improve
+**The only rule:** do not skip the practice tasks or mini projects. Reading the notebooks without running the code will not get you anywhere. The understanding lives in the doing.
 
 ---
 
 ## 🏗 Mini Projects Summary
 
-| # | Day | Project | Dataset | Skills |
+Every module ends with a mini project. These are the highlights — the ones that produce something portfolio-worthy.
+
+| # | Module | Project | Dataset | Skills demonstrated |
 |---|---|---|---|---|
-| 1 | Day 09 | Titanic Survival Analysis | Titanic | Cleaning, EDA, visualisation |
-| 2 | Day 14 | Customer Churn Prediction | Telco Churn | Classification, evaluation, pipelines |
-| 3 | Day 21 | Customer Segmentation | Online Retail | K-Means, PCA, RFM features |
-| 4 | Day 27 | Image Classifier | CIFAR-10 | CNN, transfer learning, Grad-CAM |
-| 5 | Day 32 | Sentiment Analysis | IMDb Reviews | Transformers, HuggingFace Trainer |
-| 6 | Day 40 | RAG Chatbot | Custom docs | Embeddings, vector store, LangChain |
-| 7 | Day 44–45 | Capstone | Your choice | Everything |
+| 1 | Module 4 | Titanic Survival Analysis | Titanic | Cleaning, EDA, full preprocessing pipeline |
+| 2 | Module 6 | Customer Churn Prediction | Telco Churn | Classification, evaluation metrics, sklearn Pipeline |
+| 3 | Module 7 | Customer Segmentation | Online Retail | K-Means, PCA, RFM feature engineering |
+| 4 | Module 13 | Image Classifier | CIFAR-10 | CNN from scratch vs transfer learning, Grad-CAM |
+| 5 | Module 16 | Sentiment Analysis | IMDb Reviews | Fine-tuning DistilBERT, HuggingFace Trainer |
+| 6 | Module 17 | LLM Fine-Tuning | Custom instruction set | LoRA, QLoRA, SFTTrainer, adapter merging |
+| 7 | Module 18 | RAG Chatbot | Your own docs | Embeddings, Chroma, LangChain, RAGAS evaluation |
+| 8 | Module 30 | Enterprise AI Capstone | Your choice | Full pipeline — data to deployed product |
 
 ---
 
@@ -1043,19 +535,19 @@ fastapi>=0.110
 |---|---|---|
 | [Hands-On ML with Scikit-Learn & TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) | Book | Phase 1–3 |
 | [Deep Learning with PyTorch](https://www.manning.com/books/deep-learning-with-pytorch) | Book | Phase 3 |
-| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Paper | Day 30 |
-| [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685) | Paper | Day 36 |
-| [QLoRA paper](https://arxiv.org/abs/2305.14314) | Paper | Day 36 |
-| [RAGAS evaluation framework](https://arxiv.org/abs/2309.15217) | Paper | Day 39 |
+| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Paper | Module 16 |
+| [LoRA: Low-Rank Adaptation](https://arxiv.org/abs/2106.09685) | Paper | Module 17 |
+| [QLoRA paper](https://arxiv.org/abs/2305.14314) | Paper | Module 17 |
+| [RAGAS evaluation framework](https://arxiv.org/abs/2309.15217) | Paper | Module 18 |
 
 ### Free Courses
 
 | Course | Platform | Covers |
 |---|---|---|
-| fast.ai Practical Deep Learning | fast.ai | Phase 3 |
-| Andrej Karpathy's Neural Networks: Zero to Hero | YouTube | Phase 3 |
-| HuggingFace NLP Course | huggingface.co | Phase 4 |
-| LangChain Academy | LangChain | Day 38–39 |
+| fast.ai Practical Deep Learning | fast.ai | Modules 10–14 |
+| Andrej Karpathy's Neural Networks: Zero to Hero | YouTube | Modules 10–11 |
+| HuggingFace NLP Course | huggingface.co | Modules 16–17 |
+| LangChain Academy | LangChain | Module 18 |
 
 ### Tools & Platforms
 
@@ -1069,12 +561,12 @@ fastapi>=0.110
 
 ---
 
-## 📐 Day Template
+## 📐 Notebook Template
 
-Every day in this series follows this exact structure:
+Every concept notebook in this series follows this exact structure:
 
 ```markdown
-# Day XX — Topic Name
+# [Topic Name]
 
 ## What is it?
 Plain language definition. No jargon without immediate explanation.
@@ -1083,19 +575,19 @@ Plain language definition. No jargon without immediate explanation.
 The problem this concept solves. What breaks if you skip it.
 
 ## Mathematical intuition
-The core math, explained visually where possible. No proof dumps.
+The core idea in math, explained visually where possible. No proof dumps.
 
 ## Code walkthrough
-Fully annotated notebook. Every line has a comment explaining *why*, not just *what*.
+Fully annotated cells. Every line has a comment explaining *why*, not just *what*.
 
 ## Common mistakes
-The top 3 errors beginners make on this topic and how to avoid them.
+The top 3 errors beginners make here and how to avoid them.
 
 ## Practice task
-One hands-on exercise to complete before Day N+1.
+One hands-on exercise to complete before moving to the next notebook.
 
 ## Interview questions
-3–5 questions you should be able to answer after today.
+3–5 questions you should be able to answer after working through this notebook.
 ```
 
 ---
@@ -1135,7 +627,7 @@ You are free to use, share, and adapt this material with attribution.
 
 <div align="center">
 
-**Built by [Lakshay](https://github.com/Lakshay1221-apple)**  
+**Built by [Lakshay](https://github.com/yourusername)**  
 *From ML to LLM — one day at a time.*
 
 </div>
