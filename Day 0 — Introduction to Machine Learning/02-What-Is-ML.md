@@ -73,40 +73,8 @@ Its foundations go back more than 70 years.
 
 ## Timeline of ML Evolution
 
-```text
-1950
-│
-├─ Alan Turing proposes:
-│  "Can machines think?"
-│
-1957
-│
-├─ Frank Rosenblatt develops
-│  the Perceptron
-│
-1980s
-│
-├─ Neural Network research grows
-│
-1997
-│
-├─ Tom Mitchell formalizes
-│  Machine Learning definition
-│
-2012
-│
-├─ Deep Learning revolution
-│
-2017
-│
-├─ Transformer architecture
-│
-2022+
-│
-└─ ChatGPT and LLM era
-```
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/4d07709c-0fe2-4a4f-a715-793a5cc5920f" />
 
----
 
 ## Why Was ML Created?
 
