@@ -498,6 +498,9 @@ This idea powers:
 * Search Engines
 * Modern AI Products
 
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/3f97bb55-9af6-4701-a968-42ea9b78456d" />
+
+
 ---
 
 # 🏦 Real Industry Example — Fraud Detection
