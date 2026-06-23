@@ -201,6 +201,8 @@ Prediction
 ```
 
 This simple diagram explains almost the entire Machine Learning field.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/754de833-c9aa-44f1-b334-721361477264" />
+
 
 ---
 
