@@ -154,25 +154,8 @@ Artificial Intelligence (Largest Field)
 
 ## Visual Subset Relationship
 
-```text
-+--------------------------------------------------+
-|               Artificial Intelligence            |
-|                                                  |
-|   +------------------------------------------+   |
-|   |          Machine Learning                |   |
-|   |                                          |   |
-|   |   +----------------------------------+   |   |
-|   |   |        Deep Learning             |   |   |
-|   |   |                                  |   |   |
-|   |   |   +--------------------------+   |   |   |
-|   |   |   | Large Language Models    |   |   |   |
-|   |   |   |                          |   |   |   |
-|   |   |   | ChatGPT, Claude, Gemini  |   |   |   |
-|   |   |   +--------------------------+   |   |   |
-|   |   +----------------------------------+   |   |
-|   +------------------------------------------+   |
-+--------------------------------------------------+
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ac7ba724-626c-4eb4-ba56-2c87e3d7ed2d" />
+
 
 ### Remember
 
