@@ -162,7 +162,7 @@ Artificial Intelligence (Largest Field)
 |   |          Machine Learning                |   |
 |   |                                          |   |
 |   |   +----------------------------------+   |   |
-|   |   |        Deep Learning            |   |   |
+|   |   |        Deep Learning             |   |   |
 |   |   |                                  |   |   |
 |   |   |   +--------------------------+   |   |   |
 |   |   |   | Large Language Models    |   |   |   |
@@ -431,7 +431,7 @@ Millions of AI predictions are made while driving.
 
 ---
 
-# ⚠️ Common Beginner Misconceptions
+# Common Beginner Misconceptions
 
 ## Misconception 1
 
@@ -580,7 +580,7 @@ Each is a subset of the previous category.
 
 ---
 
-# ✅ Section Summary
+# Section Summary
 
 After completing this section, you should confidently understand:
 
