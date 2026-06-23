@@ -1,8 +1,8 @@
-# 🤖 Section 1 — What is Artificial Intelligence (AI)?
+# Section 1 — What is Artificial Intelligence (AI)?
 
 <div align="center">
 
-# 🧠 Artificial Intelligence
+# Artificial Intelligence
 
 ### The Foundation of Modern Machine Learning, Deep Learning, and Large Language Models
 
@@ -14,7 +14,7 @@
 
 ---
 
-# 🎯 Learning Objectives
+# Learning Objectives
 
 By the end of this section, you should be able to:
 
@@ -27,7 +27,7 @@ By the end of this section, you should be able to:
 
 ---
 
-# 🧠 What is Artificial Intelligence?
+# What is Artificial Intelligence?
 
 Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence.
 
@@ -66,7 +66,7 @@ They learn patterns from data and use those patterns to make decisions on new in
 
 ---
 
-# 🤔 Why Do We Need AI?
+# Why Do We Need AI?
 
 Traditional programming works well when every rule can be explicitly written.
 
@@ -95,7 +95,7 @@ AI allows machines to learn these rules automatically from data.
 
 ---
 
-# 📌 Key Idea
+# Key Idea
 
 Traditional Programming:
 
@@ -117,7 +117,7 @@ Instead of humans writing every rule, AI discovers patterns on its own.
 
 ---
 
-# 🏗 The AI Hierarchy
+# The AI Hierarchy
 
 Many beginners confuse AI, Machine Learning, Deep Learning, and LLMs.
 
@@ -173,13 +173,13 @@ But the reverse is NOT always true.
 
 ---
 
-# 🎯 Types of Artificial Intelligence
+# Types of Artificial Intelligence
 
 AI can be divided into two major categories.
 
 ---
 
-# 1️⃣ Narrow AI (Weak AI)
+# Narrow AI (Weak AI)
 
 Narrow AI is designed to perform a specific task extremely well.
 
@@ -248,7 +248,7 @@ Almost every AI system that exists today is Narrow AI.
 
 ---
 
-# 2️⃣ General AI (Strong AI)
+# General AI (Strong AI)
 
 General AI refers to a hypothetical machine capable of performing any intellectual task that a human can perform.
 
@@ -285,7 +285,7 @@ All without retraining.
 
 ## Current Status
 
-⚠️ General AI does not exist today.
+General AI does not exist today.
 
 Researchers are actively working toward it, but no company has achieved true AGI yet.
 
@@ -303,7 +303,7 @@ Researchers are actively working toward it, but no company has achieved true AGI
 
 ---
 
-# 🌍 AI in Everyday Life
+# AI in Everyday Life
 
 Many people think AI only exists in laboratories.
 
@@ -311,7 +311,7 @@ In reality, you interact with AI dozens of times every day.
 
 ---
 
-## 📺 YouTube Recommendations
+## YouTube Recommendations
 
 AI analyzes:
 
@@ -329,7 +329,7 @@ Predict:
 
 ---
 
-## 🎬 Netflix Recommendations
+## Netflix Recommendations
 
 AI predicts:
 
@@ -345,7 +345,7 @@ Based on:
 
 ---
 
-## 🌐 Google Translate
+## Google Translate
 
 AI learns patterns from billions of translated sentences.
 
@@ -363,7 +363,7 @@ Modern translation uses Deep Learning and Transformer models.
 
 ---
 
-## 💬 ChatGPT
+## ChatGPT
 
 ChatGPT is an AI assistant built using:
 
@@ -385,7 +385,7 @@ It predicts the most likely next word based on context.
 
 ---
 
-## 🚗 Self-Driving Cars
+## Self-Driving Cars
 
 A self-driving vehicle uses AI for:
 
@@ -399,7 +399,7 @@ Multiple AI systems work together simultaneously.
 
 ---
 
-# 🔥 Fun Fact
+# Fun Fact
 
 A modern self-driving car may process:
 
@@ -469,7 +469,7 @@ AI can:
 
 ---
 
-# 💡 Industry Insight
+# Industry Insight
 
 The majority of successful AI products are not futuristic robots.
 
@@ -485,7 +485,7 @@ The AI that generates billions of dollars often operates invisibly behind the sc
 
 ---
 
-# 📝 Quick Revision Notes
+# Quick Revision Notes
 
 ```text
 Artificial Intelligence
@@ -518,7 +518,7 @@ LLMs ⊂ DL ⊂ ML ⊂ AI
 
 ---
 
-# 🎤 Interview Questions
+# Interview Questions
 
 ### Q1. What is Artificial Intelligence?
 
@@ -574,4 +574,4 @@ After completing this section, you should confidently understand:
 * The relationship between AI, ML, Deep Learning, and LLMs
 * Where modern systems like ChatGPT fit in the AI ecosystem
 
-🚀 In the next section, we'll dive deeper into **Machine Learning** and understand how machines actually learn from data.
+In the next section, we'll dive deeper into **Machine Learning** and understand how machines actually learn from data.

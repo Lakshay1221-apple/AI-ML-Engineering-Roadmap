@@ -1,8 +1,8 @@
-# 🤖 Section 4 — Rule-Based Programming vs Machine Learning
+# Section 4 — Rule-Based Programming vs Machine Learning
 
 <div align="center">
 
-# ⚖️ Rule-Based Programming vs Machine Learning
+# Rule-Based Programming vs Machine Learning
 
 ### Understanding When to Write Rules and When to Let Machines Learn
 
@@ -14,7 +14,7 @@
 
 ---
 
-# 🎯 Learning Objectives
+# Learning Objectives
 
 By the end of this section, you should be able to:
 
@@ -28,7 +28,7 @@ By the end of this section, you should be able to:
 
 ---
 
-# 🤔 The Fundamental Question
+# The Fundamental Question
 
 Imagine your manager asks:
 
@@ -73,7 +73,7 @@ Understanding this decision is one of the most important skills in AI engineerin
 
 ---
 
-# 🏗 What is Rule-Based Programming?
+# What is Rule-Based Programming?
 
 Rule-Based Programming is the traditional way software has been built for decades.
 
@@ -119,7 +119,7 @@ Not the machine.
 
 ---
 
-# 🧠 What is Machine Learning?
+# What is Machine Learning?
 
 Machine Learning flips the process.
 
@@ -170,7 +170,7 @@ The intelligence emerges from data.
 
 ---
 
-# 🔄 The Core Difference
+# The Core Difference
 
 Rule-Based Programming:
 
@@ -222,7 +222,7 @@ This simple diagram explains almost the entire Machine Learning field.
 
 ---
 
-# 🚧 Real-World Example 1 — Calculator
+# Real-World Example 1 — Calculator
 
 Suppose we want to build:
 
@@ -277,7 +277,7 @@ No learning is required.
 
 ---
 
-# 🚧 Real-World Example 2 — Spam Detection
+# Real-World Example 2 — Spam Detection
 
 Now consider:
 
@@ -337,7 +337,7 @@ The model discovers patterns automatically.
 
 ---
 
-# 🚧 Real-World Example 3 — Netflix Recommendations
+# Real-World Example 3 — Netflix Recommendations
 
 Question:
 
@@ -393,7 +393,7 @@ to predict what users may enjoy.
 
 ---
 
-# 🚗 Real-World Example 4 — Self-Driving Cars
+# Real-World Example 4 — Self-Driving Cars
 
 Imagine writing rules for:
 
@@ -431,7 +431,7 @@ with some Rule-Based safety systems.
 
 ---
 
-# 🔥 The Secret Superpower of Machine Learning
+# The Secret Superpower of Machine Learning
 
 This is one of the biggest advantages of ML.
 
@@ -473,7 +473,7 @@ Only the learned patterns change.
 
 ---
 
-# 📌 Code Update vs Dataset Update
+# Code Update vs Dataset Update
 
 Traditional Software:
 
@@ -503,7 +503,7 @@ This idea powers:
 
 ---
 
-# 🏦 Real Industry Example — Fraud Detection
+# Real Industry Example — Fraud Detection
 
 Imagine a bank.
 
@@ -538,7 +538,7 @@ and continuously learns new fraud patterns.
 
 ---
 
-# 🏗 Modern Systems Use Both
+# Modern Systems Use Both
 
 A beginner mistake is assuming:
 
@@ -590,7 +590,7 @@ Both work together.
 
 ---
 
-# ⚠️ Strengths and Weaknesses
+# Strengths and Weaknesses
 
 ## Rule-Based Programming
 
@@ -642,7 +642,7 @@ Both work together.
 
 ---
 
-# 🧠 Decision Framework
+# Decision Framework
 
 When facing a problem, ask:
 
@@ -682,7 +682,7 @@ Use Machine Learning
 
 ---
 
-# 💡 Industry Insight
+# Industry Insight
 
 Many of the world's largest companies began with rule-based systems.
 
@@ -710,7 +710,7 @@ because maintaining millions of rules became impossible.
 
 ---
 
-# 🎯 Interview Insight
+# Interview Insight
 
 A very common interview question:
 
@@ -732,7 +732,7 @@ The best engineers always choose the simplest solution that works.
 
 ---
 
-# 📝 Quick Revision Notes
+# Quick Revision Notes
 
 ```text
 Rule-Based:
@@ -762,7 +762,7 @@ Unknown Patterns
 
 ---
 
-# 🎤 Interview Questions
+# Interview Questions
 
 ### Q1. What is the fundamental difference between Rule-Based Programming and Machine Learning?
 
@@ -782,7 +782,7 @@ Unknown Patterns
 
 ---
 
-# 🧪 Practice Exercise
+# Practice Exercise
 
 Classify each problem as either:
 
@@ -804,7 +804,7 @@ Try answering before checking the solutions in the next section.
 
 ---
 
-# ✅ Section Summary
+# Section Summary
 
 After completing this section, you should understand:
 
@@ -815,4 +815,4 @@ After completing this section, you should understand:
 * Why modern AI products combine both paradigms
 * Why updating data is often more powerful than updating code
 
-🚀 In the next section, **Types of Machine Learning**, we will open the Machine Learning black box and explore the four major learning paradigms that power modern AI systems.
+In the next section, **Types of Machine Learning**, we will open the Machine Learning black box and explore the four major learning paradigms that power modern AI systems.

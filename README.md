@@ -6,18 +6,18 @@
 <img src="https://img.shields.io/badge/Framework-PyTorch%20%7C%20HuggingFace-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 
-# 🤖 ML to LLM — 45-Day AI/ML Series
+# ML to LLM — 45-Day AI/ML Series
 
 **A structured, beginner-to-advanced journey through Machine Learning, Deep Learning, LLMs, and Generative AI.**  
 Every concept explained. Every function justified. Every module ends with a real project.
 
-[Getting Started](#-getting-started) · [Roadmap](#-series-roadmap) · [Projects](#-mini-projects) · [Resources](#-resources) · [Contributing](#-contributing)
+[Getting Started](#getting-started) · [Roadmap](#series-roadmap) · [Projects](#mini-projects-summary) · [Resources](#resources) · [Contributing](#contributing)
 
 </div>
 
 ---
 
-## 📌 About This Series
+## About This Series
 
 This repository is a **complete self-contained learning path** for anyone who wants to go from zero knowledge to confidently building and deploying AI/ML systems.
 
@@ -46,7 +46,7 @@ This series does neither. Every concept is taught in isolation first, then immed
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 
 ```
 ml-to-llm-45days/
@@ -99,7 +99,7 @@ module-XX-topic-name/
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -144,7 +144,7 @@ python -c "import numpy, pandas, sklearn, torch; print('All good ✓')"
 
 ---
 
-## 🗺 Series Roadmap
+## Series Roadmap
 
 ```
 MODULE 1–4               MODULE 5–9               MODULE 10–16
@@ -163,13 +163,13 @@ Content is uploaded module by module as it is completed. Each module folder appe
 
 ---
 
-## 📦 Module Syllabus
+## Module Syllabus
 
 > Each module is a self-contained unit with notebooks, concept notes, and a mini project. Modules are released progressively — check back regularly or watch the repo.
 
 ---
 
-### 🟢 Foundation Modules
+### Foundation Modules
 
 #### Module 1 — Programming & Python Engineering
 Core Python for AI/ML — the language fundamentals every practitioner needs before touching data.
@@ -199,7 +199,7 @@ The full data wrangling toolkit — from raw files to insight-ready DataFrames.
 
 ---
 
-### 🔵 Classical ML Modules
+### Classical ML Modules
 
 #### Module 5 — ML From Scratch (Core Algorithms Implementation)
 Understand algorithms by building them — not just calling `.fit()`.
@@ -236,7 +236,7 @@ The step where domain knowledge becomes competitive advantage — and where most
 
 ---
 
-### 🟣 Deep Learning Modules
+### Deep Learning Modules
 
 #### Module 10 — Neural Network Foundations
 From a single perceptron to a working multi-layer network — built and understood from scratch.
@@ -273,7 +273,7 @@ Beyond classification — detection, segmentation, and modern vision architectur
 
 ---
 
-### 🟡 NLP & Transformers Modules
+### NLP & Transformers Modules
 
 #### Module 15 — NLP Foundations (Classical + Embeddings)
 Text as data — from bag-of-words to word vectors.
@@ -289,7 +289,7 @@ The architecture that changed everything — understood from first principles.
 
 ---
 
-### 🔴 LLM & Generative AI Modules
+### LLM & Generative AI Modules
 
 #### Module 17 — LLM Engineering & Fine-Tuning
 Working with large language models — from prompt to production fine-tuned adapter.
@@ -326,7 +326,7 @@ Models that see, read, and reason across modalities simultaneously.
 
 ---
 
-### ⚙️ Engineering & MLOps Modules
+### Engineering & MLOps Modules
 
 #### Module 22 — Data Engineering & Big Data
 Building the data infrastructure that production ML systems depend on.
@@ -370,7 +370,7 @@ Production-grade ML systems — monitoring, drift detection, and scaling.
 
 ---
 
-### 🏁 Capstone Modules
+### Capstone Modules
 
 #### Module 28 — Research Paper Implementation
 Bridge the gap between published research and working code.
@@ -400,7 +400,7 @@ The current frontier — what's happening in AI research and where it's heading.
 
 ---
 
-## 🧠 What You Will Learn
+## What You Will Learn
 
 By the end of this series, you will be able to:
 
@@ -430,11 +430,11 @@ By the end of this series, you will be able to:
 
 ---
 
-## 👤 Who Should Follow This Series?
+## Who Should Follow This Series?
 
 This series is designed to work across different starting points. Find yourself below:
 
-**✅ Perfect fit:**
+**Perfect fit:**
 
 | Profile | Why this works for you |
 |---|---|
@@ -444,18 +444,18 @@ This series is designed to work across different starting points. Find yourself 
 | **Developer pivoting to AI** from another stack | Practical, engineering-first approach — you'll build things, not just read theory |
 | **Someone who took a course but feels lost in practice** | Bridges the gap between tutorials and the "glue code" that real projects need |
 
-**⚠️ You may need to supplement if:**
+**You may need to supplement if:**
 - You are already working as an ML engineer and want cutting-edge research depth — pair this with papers and arXiv
 - You want a university-level mathematical treatment — pair with a linear algebra or probability textbook
 - You need certification — this repo does not issue certificates, but the portfolio you build is more valuable
 
-**❌ Not designed for:**
+**Not designed for:**
 - People who want to use AI tools (ChatGPT, Midjourney) without understanding what's under the hood
 - People looking for a passive learning experience — every module has code to write and questions to answer
 
 ---
 
-## 🗓 How to Follow Along
+## How to Follow Along
 
 This is a **self-paced** series. There is no fixed schedule — go at whatever speed lets you actually understand and implement each module before moving on.
 
@@ -471,7 +471,7 @@ This is a **self-paced** series. There is no fixed schedule — go at whatever s
 
 ---
 
-## 🏗 Mini Projects Summary
+## Mini Projects Summary
 
 Every module ends with a mini project. These are the highlights — the ones that produce something portfolio-worthy.
 
@@ -488,7 +488,7 @@ Every module ends with a mini project. These are the highlights — the ones tha
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Full environment files are in the repo root. Key packages by phase:
 
@@ -527,7 +527,7 @@ fastapi>=0.110
 
 ---
 
-## 📚 Resources
+## Resources
 
 ### Core Reading
 
@@ -561,7 +561,7 @@ fastapi>=0.110
 
 ---
 
-## 📐 Notebook Template
+## Notebook Template
 
 Every concept notebook in this series follows this exact structure:
 
@@ -592,7 +592,7 @@ One hands-on exercise to complete before moving to the next notebook.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome — corrections, additional examples, better explanations, and translations.
 
@@ -609,7 +609,7 @@ Contributions are welcome — corrections, additional examples, better explanati
 
 ---
 
-## ⭐ Support This Series
+## Support This Series
 
 If this series helps you, consider:
 - Starring the repo (it helps others find it)
@@ -618,7 +618,7 @@ If this series helps you, consider:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.  
 You are free to use, share, and adapt this material with attribution.

@@ -1,8 +1,8 @@
-# 🤖 Section 2 — What is Machine Learning?
+# Section 2 — What is Machine Learning?
 
 <div align="center">
 
-# 🧠 Machine Learning
+# Machine Learning
 
 ### The Engine That Powers Modern Artificial Intelligence
 
@@ -14,7 +14,7 @@
 
 ---
 
-# 🎯 Learning Objectives
+# Learning Objectives
 
 By the end of this section, you should be able to:
 
@@ -29,7 +29,7 @@ By the end of this section, you should be able to:
 
 ---
 
-# 🧠 What is Machine Learning?
+# What is Machine Learning?
 
 Machine Learning (ML) is a branch of Artificial Intelligence that enables computers to learn patterns from data and improve their performance without being explicitly programmed for every possible scenario.
 
@@ -63,7 +63,7 @@ Uses them to make predictions
 
 ---
 
-# 📜 The Birth of Machine Learning
+# The Birth of Machine Learning
 
 Machine Learning did not suddenly appear with ChatGPT.
 
@@ -106,7 +106,7 @@ Machine Learning was created to solve problems where writing explicit rules is i
 
 ---
 
-# 🎓 Tom Mitchell's Famous Definition (1997)
+# Tom Mitchell's Famous Definition (1997)
 
 One of the most cited definitions in Machine Learning.
 
@@ -157,7 +157,7 @@ If performance improves as more examples are seen:
 
 ---
 
-# 🔄 The Great Paradigm Shift
+# The Great Paradigm Shift
 
 Understanding this single idea will make the rest of Machine Learning much easier.
 
@@ -210,13 +210,13 @@ Prediction
 
 ---
 
-# 🧠 The Three Pillars of Machine Learning
+# The Three Pillars of Machine Learning
 
 Every Machine Learning system is built upon three core concepts.
 
 ---
 
-## 1️⃣ Learning from Data
+## Learning from Data
 
 Data is the fuel of Machine Learning.
 
@@ -248,7 +248,7 @@ Machine Learning works similarly.
 
 ---
 
-## 2️⃣ Pattern Recognition
+## Pattern Recognition
 
 ML algorithms search for hidden relationships.
 
@@ -267,7 +267,7 @@ The model detects these patterns mathematically.
 
 ---
 
-## 3️⃣ Prediction
+## Prediction
 
 After learning patterns:
 
@@ -291,13 +291,13 @@ Prediction is the ultimate goal of Machine Learning.
 
 ---
 
-# 🌍 Real-World Applications of Machine Learning
+# Real-World Applications of Machine Learning
 
 You interact with ML dozens of times every day.
 
 ---
 
-## 📺 YouTube Recommendations
+## YouTube Recommendations
 
 Predict:
 
@@ -307,7 +307,7 @@ Which video will you watch next?
 
 ---
 
-## 🎬 Netflix Recommendations
+## Netflix Recommendations
 
 Predict:
 
@@ -317,7 +317,7 @@ Which movie will keep you engaged?
 
 ---
 
-## 📧 Spam Detection
+## Spam Detection
 
 Predict:
 
@@ -327,13 +327,13 @@ Spam or Not Spam?
 
 ---
 
-## 💳 Fraud Detection
+## Fraud Detection
 
 Banks use ML to detect suspicious transactions in real time.
 
 ---
 
-## 🏥 Healthcare
+## Healthcare
 
 Applications include:
 
@@ -344,7 +344,7 @@ Applications include:
 
 ---
 
-## 🚗 Self-Driving Cars
+## Self-Driving Cars
 
 ML helps with:
 
@@ -354,13 +354,13 @@ ML helps with:
 
 ---
 
-## 💬 ChatGPT
+## ChatGPT
 
 ChatGPT is built using Deep Learning, which itself is a subset of Machine Learning.
 
 ---
 
-# 🏗 ML Inside AI
+# ML Inside AI
 
 Understanding the hierarchy is critical.
 
@@ -382,7 +382,7 @@ Artificial Intelligence
 
 ---
 
-# 🛠 Popular Machine Learning Libraries
+# Popular Machine Learning Libraries
 
 In modern ML development, we rarely implement algorithms from scratch.
 
@@ -498,9 +498,9 @@ Widely used in production systems.
 
 ---
 
-# ⚠️ Common Beginner Misconceptions
+# Common Beginner Misconceptions
 
-### ❌ ML Thinks Like Humans
+### ML Thinks Like Humans
 
 False.
 
@@ -510,7 +510,7 @@ It does not possess human understanding.
 
 ---
 
-### ❌ ML Memorizes Everything
+### ML Memorizes Everything
 
 False.
 
@@ -520,7 +520,7 @@ Good ML models learn patterns that generalize.
 
 ---
 
-### ❌ More Data Always Means Better Results
+### More Data Always Means Better Results
 
 False.
 
@@ -530,7 +530,7 @@ Quality matters more than quantity.
 
 ---
 
-# 💡 Industry Insight
+# Industry Insight
 
 Many beginners think:
 
@@ -552,7 +552,7 @@ Clean data often beats sophisticated models.
 
 ---
 
-# 📝 Quick Revision Notes
+# Quick Revision Notes
 
 ```text
 Machine Learning
@@ -583,7 +583,7 @@ LLM ⊂ DL
 
 ---
 
-# 🎤 Interview Questions
+# Interview Questions
 
 ### Q1. What is Machine Learning?
 
@@ -607,7 +607,7 @@ AI → ML → DL → LLM
 
 ---
 
-# ✅ Section Summary
+# Section Summary
 
 In this section you learned:
 
@@ -621,4 +621,4 @@ In this section you learned:
 * Popular ML libraries such as NumPy, Pandas, Scikit-Learn, PyTorch, and TensorFlow
 * How Machine Learning fits into the broader AI ecosystem
 
-🚀 In the next section, **"Why Machine Learning Exists"**, we'll explore real-world problems where traditional programming completely fails and why ML became one of the most important technologies of the 21st century.
+In the next section, **"Why Machine Learning Exists"**, we'll explore real-world problems where traditional programming completely fails and why ML became one of the most important technologies of the 21st century.

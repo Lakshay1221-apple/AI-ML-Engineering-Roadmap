@@ -1,8 +1,8 @@
-# 🤖 Section 3 — Why Machine Learning Exists
+# Section 3 — Why Machine Learning Exists
 
 <div align="center">
 
-# 🚧 Why Machine Learning Exists
+# Why Machine Learning Exists
 
 ### Understanding the Limitations of Traditional Programming
 
@@ -14,7 +14,7 @@
 
 ---
 
-# 🎯 Learning Objectives
+# Learning Objectives
 
 By the end of this section, you should be able to:
 
@@ -28,7 +28,7 @@ By the end of this section, you should be able to:
 
 ---
 
-# 🤔 The Big Question
+# The Big Question
 
 Before Machine Learning existed, software engineers solved problems using traditional programming.
 
@@ -42,7 +42,7 @@ The answer is simple:
 
 ---
 
-# 🏗 Traditional Programming Works Brilliantly... Until It Doesn't
+# Traditional Programming Works Brilliantly... Until It Doesn't
 
 For many problems, traditional programming is perfect.
 
@@ -82,7 +82,7 @@ Traditional programming shines here.
 
 ---
 
-# 🚧 The Complexity Wall
+# The Complexity Wall
 
 Now consider a very different problem.
 
@@ -151,13 +151,13 @@ Humans cannot write enough rules.
 
 This is called:
 
-# 🚧 The Complexity Wall
+# The Complexity Wall
 
 > The point at which the number of rules required to solve a problem becomes too large, too dynamic, or too complex for humans to manage.
 
 ---
 
-# 📌 Key Insight
+# Key Insight
 
 Traditional programming struggles when:
 
@@ -172,7 +172,7 @@ These are exactly the types of problems Machine Learning was designed to solve.
 
 ---
 
-# 📧 The Classic Example: Spam Detection
+# The Classic Example: Spam Detection
 
 Let's look at one of the most famous Machine Learning problems.
 
@@ -259,7 +259,7 @@ The system becomes impossible to maintain.
 
 ---
 
-# ❌ Why Hardcoded Rules Fail
+# Why Hardcoded Rules Fail
 
 ## Problem 1 — Infinite Variations
 
@@ -308,7 +308,7 @@ Hardcoded systems struggle with context.
 
 ---
 
-# ✅ The Machine Learning Solution
+# The Machine Learning Solution
 
 Instead of manually writing rules:
 
@@ -352,7 +352,7 @@ Without humans explicitly coding these rules.
 
 ---
 
-# 🔍 What Makes ML Different?
+# What Makes ML Different?
 
 Traditional programming asks:
 
@@ -370,7 +370,7 @@ This is a massive shift in thinking.
 
 ---
 
-# 🎯 Another Example: Self-Driving Cars
+# Another Example: Self-Driving Cars
 
 Imagine writing rules for driving.
 
@@ -406,7 +406,7 @@ instead of relying on manually written rules.
 
 ---
 
-# 🌐 Another Example: Language Translation
+# Another Example: Language Translation
 
 Translate:
 
@@ -435,7 +435,7 @@ Machine Learning learns language patterns from massive datasets.
 
 ---
 
-# 🧠 Deterministic vs Probabilistic Systems
+# Deterministic vs Probabilistic Systems
 
 This is an important industry concept.
 
@@ -483,7 +483,7 @@ Most ML systems are probabilistic.
 
 ---
 
-# ⚖️ When Should You Use Machine Learning?
+# When Should You Use Machine Learning?
 
 Not every problem needs ML.
 
@@ -540,7 +540,7 @@ Examples:
 
 ---
 
-# 💰 Why Companies Love Machine Learning
+# Why Companies Love Machine Learning
 
 Machine Learning helps businesses:
 
@@ -592,9 +592,9 @@ Fraud or Genuine Transaction?
 
 ---
 
-# ⚠️ Common Beginner Misconceptions
+# Common Beginner Misconceptions
 
-## ❌ ML Replaces Programming
+## ML Replaces Programming
 
 False.
 
@@ -609,7 +609,7 @@ Every ML system still requires:
 
 ---
 
-## ❌ ML Is Better Than Traditional Code
+## ML Is Better Than Traditional Code
 
 False.
 
@@ -625,7 +625,7 @@ Use the simplest solution possible.
 
 ---
 
-## ❌ More Rules Means Better Software
+## More Rules Means Better Software
 
 False.
 
@@ -635,7 +635,7 @@ Machine Learning can often simplify complex decision systems.
 
 ---
 
-# 💡 Industry Insight
+# Industry Insight
 
 Many companies originally started with:
 
@@ -655,7 +655,7 @@ This transition has happened repeatedly across the tech industry.
 
 ---
 
-# 📝 Quick Revision Notes
+# Quick Revision Notes
 
 ```text
 Why ML Exists?
@@ -683,7 +683,7 @@ Unknown Patterns
 
 ---
 
-# 🎤 Interview Questions
+# Interview Questions
 
 ### Q1. What is the Complexity Wall?
 
@@ -701,7 +701,7 @@ Unknown Patterns
 
 ---
 
-# 🧪 Thought Exercise
+# Thought Exercise
 
 Imagine you are asked to build:
 
@@ -719,7 +719,7 @@ This is exactly the type of reasoning ML engineers use when deciding whether Mac
 
 ---
 
-# ✅ Section Summary
+# Section Summary
 
 After completing this section, you should understand:
 
@@ -730,4 +730,4 @@ After completing this section, you should understand:
 * When to choose ML versus traditional programming
 * Why modern AI products rely heavily on Machine Learning
 
-🚀 In the next section, **Rule-Based Programming vs Machine Learning**, we will directly compare both approaches side-by-side and understand their strengths, weaknesses, and trade-offs.
+In the next section, **Rule-Based Programming vs Machine Learning**, we will directly compare both approaches side-by-side and understand their strengths, weaknesses, and trade-offs.

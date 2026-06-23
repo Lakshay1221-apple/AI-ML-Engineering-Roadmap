@@ -1,6 +1,6 @@
-# 🚀 Day 0 — Welcome & Introduction to Machine Learning
+# Day 0 — Welcome & Introduction to Machine Learning
 
-## ⏱ Estimated Time
+## Estimated Time
 
 * **Reading:** 30–45 minutes
 * **Difficulty:** Beginner
@@ -30,7 +30,7 @@ While this repository is a self-contained learning path, expanding your perspect
 
 ---
 
-## 📖 Before We Begin
+## Before We Begin
 
 This series is not designed to be consumed passively.
 
@@ -55,7 +55,7 @@ Learn by doing.
 
 ---
 
-## 🎓 How to Use This Day
+## How to Use This Day
 
 For the best learning experience:
 
@@ -67,7 +67,7 @@ For the best learning experience:
 
 ---
 
-## 🎯 Day 0 Goals
+## Day 0 Goals
 
 By the end of Day 0, you should be able to answer:
 
@@ -80,7 +80,7 @@ By the end of Day 0, you should be able to answer:
 
 ---
 
-## 📂 Day 0 Structure
+## Day 0 Structure
 
 ```text
 Day-00-Introduction-To-ML/
@@ -103,7 +103,7 @@ Day-00-Introduction-To-ML/
 
 ---
 
-## 📚 Learning Path
+## Learning Path
 
 To keep things organized and easy to digest, Day 0 is broken down into modular sections.
 
@@ -148,7 +148,7 @@ To keep things organized and easy to digest, Day 0 is broken down into modular s
 
 ---
 
-## 🗺️ Roadmap Preview
+## Roadmap Preview
 
 Here is a quick look at where we are heading over the next 45 days:
 
@@ -176,7 +176,7 @@ Enterprise AI Capstone
 
 ---
 
-## ✅ Day 0 Completion Checklist
+## Day 0 Completion Checklist
 
 Before moving to Day 1, make sure you can confidently:
 
@@ -191,7 +191,7 @@ Before moving to Day 1, make sure you can confidently:
 
 ---
 
-## 🚀 What's Next?
+## What's Next?
 
 In **Day 1**, we'll begin exploring data itself.
 
