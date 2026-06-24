@@ -84,6 +84,9 @@ This observation is often referred to as the **80/20 Rule of Machine Learning**.
 
 The better the data preparation process, the better the final model tends to perform.
 
+<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/6a93d584-943d-484e-8d68-53c5113a7f68" />
+
+
 ---
 
 ## The Engine and Fuel Analogy
