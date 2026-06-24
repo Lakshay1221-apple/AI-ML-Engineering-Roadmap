@@ -1,5 +1,32 @@
 # Section 5 — Types of Machine Learning
 
+---
+
+# Types of Machine Learning
+
+### Understanding the Four Major Learning Paradigms
+
+![Topic](https://img.shields.io/badge/Topic-Types%20of%20ML-blue)
+![Difficulty](https://img.shields.io/badge/Level-Beginner-green)
+![Importance](https://img.shields.io/badge/Foundation-Critical-red)
+
+---
+
+# Learning Objectives
+
+After completing this section, you should be able to:
+
+* Explain the four major types of Machine Learning
+* Understand the importance of labels in ML systems
+* Identify which paradigm should be used for a given business problem
+* Understand the strengths and weaknesses of each learning approach
+* Recognize common algorithms associated with each paradigm
+* Understand which paradigms dominate industry applications
+
+---
+
+# Main Content
+
 ## Understanding the Four Major Learning Paradigms
 
 Machine Learning is not a single technique.
@@ -34,20 +61,7 @@ Understanding the differences between these paradigms is one of the most importa
 
 ---
 
-## Learning Objectives
-
-After completing this section, you should be able to:
-
-* Explain the four major types of Machine Learning
-* Understand the importance of labels in ML systems
-* Identify which paradigm should be used for a given business problem
-* Understand the strengths and weaknesses of each learning approach
-* Recognize common algorithms associated with each paradigm
-* Understand which paradigms dominate industry applications
-
----
-
-# The Central Concept: Labels
+## The Central Concept: Labels
 
 Before discussing the four paradigms, we must first understand the concept of a label.
 
@@ -78,7 +92,7 @@ This single idea drives the entire field.
 
 ---
 
-# The Machine Learning Decision Tree
+## The Machine Learning Decision Tree
 
 A useful way to think about Machine Learning is through a simple decision process.
 
@@ -110,7 +124,7 @@ This diagram alone can help many beginners quickly identify the correct learning
 
 ---
 
-# Supervised Learning
+## Supervised Learning
 
 ## Definition
 
@@ -292,7 +306,7 @@ Discrete classes.
 
 ---
 
-# Unsupervised Learning
+## Unsupervised Learning
 
 ## Definition
 
@@ -427,7 +441,7 @@ Applications:
 
 ---
 
-# Semi-Supervised Learning
+## Semi-Supervised Learning
 
 ## Definition
 
@@ -501,7 +515,7 @@ After that, you infer the remaining rules yourself.
 
 ---
 
-# Reinforcement Learning
+## Reinforcement Learning
 
 ## Definition
 
@@ -632,7 +646,9 @@ to improve responses.
 
 ---
 
-# Comparing the Four Paradigms
+# Real-World Applications
+
+## Comparing the Four Paradigms
 
 | Property            | Supervised                 | Unsupervised      | Semi-Supervised | Reinforcement       |
 | ------------------- | -------------------------- | ----------------- | --------------- | ------------------- |
@@ -644,41 +660,7 @@ to improve responses.
 
 ---
 
-# Industry Perspective
-
-Many beginners believe Reinforcement Learning powers most AI systems.
-
-This is incorrect.
-
-In practice:
-
-```text
-Supervised Learning
-≈ Majority of Enterprise ML
-
-Unsupervised Learning
-≈ Data Exploration
-
-Semi-Supervised Learning
-≈ Specialized Domains
-
-Reinforcement Learning
-≈ Advanced Research and Decision Systems
-```
-
-Most business value today comes from Supervised Learning systems.
-
-Examples include:
-
-* Fraud detection
-* Customer churn prediction
-* Credit scoring
-* Search ranking
-* Recommendation systems
-
----
-
-# Common Beginner Mistakes
+# Common Misconceptions
 
 ## Mistake 1
 
@@ -709,6 +691,40 @@ Assuming Unsupervised Learning is easier because no labels exist.
 False.
 
 Evaluating unsupervised systems is often significantly harder.
+
+---
+
+# Industry Insight
+
+Many beginners believe Reinforcement Learning powers most AI systems.
+
+This is incorrect.
+
+In practice:
+
+```text
+Supervised Learning
+≈ Majority of Enterprise ML
+
+Unsupervised Learning
+≈ Data Exploration
+
+Semi-Supervised Learning
+≈ Specialized Domains
+
+Reinforcement Learning
+≈ Advanced Research and Decision Systems
+```
+
+Most business value today comes from Supervised Learning systems.
+
+Examples include:
+
+* Fraud detection
+* Customer churn prediction
+* Credit scoring
+* Search ranking
+* Recommendation systems
 
 ---
 

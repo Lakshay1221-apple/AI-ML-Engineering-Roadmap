@@ -1,6 +1,6 @@
 # Section 1 — What is Artificial Intelligence (AI)?
 
-<div align="center">
+---
 
 # Artificial Intelligence
 
@@ -9,8 +9,6 @@
 ![AI](https://img.shields.io/badge/Topic-Artificial%20Intelligence-blue)
 ![Difficulty](https://img.shields.io/badge/Level-Beginner-green)
 ![Importance](https://img.shields.io/badge/Foundation-Critical-red)
-
-</div>
 
 ---
 
@@ -27,7 +25,9 @@ By the end of this section, you should be able to:
 
 ---
 
-# What is Artificial Intelligence?
+# Main Content
+
+## What is Artificial Intelligence?
 
 Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence.
 
@@ -66,7 +66,7 @@ They learn patterns from data and use those patterns to make decisions on new in
 
 ---
 
-# Why Do We Need AI?
+## Why Do We Need AI?
 
 Traditional programming works well when every rule can be explicitly written.
 
@@ -95,7 +95,7 @@ AI allows machines to learn these rules automatically from data.
 
 ---
 
-# Key Idea
+## Key Idea
 
 Traditional Programming:
 
@@ -117,7 +117,7 @@ Instead of humans writing every rule, AI discovers patterns on its own.
 
 ---
 
-# The AI Hierarchy
+## The AI Hierarchy
 
 Many beginners confuse AI, Machine Learning, Deep Learning, and LLMs.
 
@@ -173,13 +173,13 @@ But the reverse is NOT always true.
 
 ---
 
-# Types of Artificial Intelligence
+## Types of Artificial Intelligence
 
 AI can be divided into two major categories.
 
 ---
 
-# Narrow AI (Weak AI)
+## Narrow AI (Weak AI)
 
 Narrow AI is designed to perform a specific task extremely well.
 
@@ -248,7 +248,7 @@ Almost every AI system that exists today is Narrow AI.
 
 ---
 
-# General AI (Strong AI)
+## General AI (Strong AI)
 
 General AI refers to a hypothetical machine capable of performing any intellectual task that a human can perform.
 
@@ -291,19 +291,19 @@ Researchers are actively working toward it, but no company has achieved true AGI
 
 ---
 
-# Narrow AI vs General AI
+## Narrow AI vs General AI
 
 | Feature                  | Narrow AI                 | General AI                 |
 | ------------------------ | ------------------------- | -------------------------- |
-| Exists Today             | ✅ Yes                     | ❌ No                       |
-| Specialized Task         | ✅ Yes                     | ❌ No                       |
-| Human-Level Intelligence | ❌ No                      | ✅ Yes                      |
-| Learns Across Domains    | ❌ No                      | ✅ Yes                      |
+| Exists Today             | Yes                     | No                       |
+| Specialized Task         | Yes                     | No                       |
+| Human-Level Intelligence | No                      | Yes                      |
+| Learns Across Domains    | No                      | Yes                      |
 | Examples                 | ChatGPT, YouTube, Netflix | Hypothetical Future System |
 
 ---
 
-# AI in Everyday Life
+# Real-World Applications
 
 Many people think AI only exists in laboratories.
 
@@ -399,7 +399,7 @@ Multiple AI systems work together simultaneously.
 
 ---
 
-# Fun Fact
+## Fun Fact
 
 A modern self-driving car may process:
 
@@ -414,13 +414,13 @@ Millions of AI predictions are made while driving.
 
 ---
 
-# Common Beginner Misconceptions
+# Common Misconceptions
 
 ## Misconception 1
 
 > AI is the same as ChatGPT.
 
-❌ False
+False
 
 ChatGPT is only one application of AI.
 
@@ -430,7 +430,7 @@ ChatGPT is only one application of AI.
 
 > AI means robots.
 
-❌ False
+False
 
 Most AI systems have no physical body.
 
@@ -446,7 +446,7 @@ Examples:
 
 > AI thinks like humans.
 
-❌ False
+False
 
 AI recognizes patterns.
 
@@ -458,7 +458,7 @@ Human reasoning is far more sophisticated.
 
 > AI is always correct.
 
-❌ False
+False
 
 AI can:
 

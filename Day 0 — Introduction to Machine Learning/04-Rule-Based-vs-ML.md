@@ -1,6 +1,6 @@
 # Section 4 — Rule-Based Programming vs Machine Learning
 
-<div align="center">
+---
 
 # Rule-Based Programming vs Machine Learning
 
@@ -9,8 +9,6 @@
 ![Topic](https://img.shields.io/badge/Topic-Rule%20Based%20vs%20ML-blue)
 ![Difficulty](https://img.shields.io/badge/Level-Beginner-green)
 ![Importance](https://img.shields.io/badge/Foundation-Critical-red)
-
-</div>
 
 ---
 
@@ -28,7 +26,9 @@ By the end of this section, you should be able to:
 
 ---
 
-# The Fundamental Question
+# Main Content
+
+## The Fundamental Question
 
 Imagine your manager asks:
 
@@ -73,7 +73,7 @@ Understanding this decision is one of the most important skills in AI engineerin
 
 ---
 
-# What is Rule-Based Programming?
+## What is Rule-Based Programming?
 
 Rule-Based Programming is the traditional way software has been built for decades.
 
@@ -119,7 +119,7 @@ Not the machine.
 
 ---
 
-# What is Machine Learning?
+## What is Machine Learning?
 
 Machine Learning flips the process.
 
@@ -170,7 +170,7 @@ The intelligence emerges from data.
 
 ---
 
-# The Core Difference
+## The Core Difference
 
 Rule-Based Programming:
 
@@ -206,23 +206,25 @@ This simple diagram explains almost the entire Machine Learning field.
 
 ---
 
-# 📊 Head-to-Head Comparison
+## Head-to-Head Comparison
 
 | Feature             | Rule-Based Programming | Machine Learning |
 | ------------------- | ---------------------- | ---------------- |
 | Rule Creation       | Human                  | Machine          |
 | Adaptability        | Low                    | High             |
-| Learns from Data    | ❌ No                   | ✅ Yes            |
-| Handles Uncertainty | ❌ Poorly               | ✅ Well           |
-| Handles Patterns    | ❌ Limited              | ✅ Excellent      |
-| Requires Training   | ❌ No                   | ✅ Yes            |
+| Learns from Data    | No                   | Yes            |
+| Handles Uncertainty | Poorly               | Well           |
+| Handles Patterns    | Limited              | Excellent      |
+| Requires Training   | No                   | Yes            |
 | Maintenance         | Code Updates           | Data Updates     |
 | Transparency        | Very High              | Often Lower      |
 | Best For            | Logic Problems         | Pattern Problems |
 
 ---
 
-# Real-World Example 1 — Calculator
+# Real-World Applications
+
+## Example 1 — Calculator
 
 Suppose we want to build:
 
@@ -271,13 +273,13 @@ No learning is required.
 
 ### Verdict
 
-✅ Rule-Based Programming
+Recommended: Rule-Based Programming
 
-❌ Machine Learning
+Not recommended: Machine Learning
 
 ---
 
-# Real-World Example 2 — Spam Detection
+## Example 2 — Spam Detection
 
 Now consider:
 
@@ -331,13 +333,13 @@ The model discovers patterns automatically.
 
 ### Verdict
 
-❌ Rule-Based Programming
+Not recommended: Rule-Based Programming
 
-✅ Machine Learning
+Recommended: Machine Learning
 
 ---
 
-# Real-World Example 3 — Netflix Recommendations
+## Example 3 — Netflix Recommendations
 
 Question:
 
@@ -387,13 +389,13 @@ to predict what users may enjoy.
 
 ### Verdict
 
-❌ Rule-Based
+Not recommended: Rule-Based
 
-✅ Machine Learning
+Recommended: Machine Learning
 
 ---
 
-# Real-World Example 4 — Self-Driving Cars
+## Example 4 — Self-Driving Cars
 
 Imagine writing rules for:
 
@@ -431,7 +433,7 @@ with some Rule-Based safety systems.
 
 ---
 
-# The Secret Superpower of Machine Learning
+## The Secret Superpower of Machine Learning
 
 This is one of the biggest advantages of ML.
 
@@ -473,7 +475,7 @@ Only the learned patterns change.
 
 ---
 
-# Code Update vs Dataset Update
+## Code Update vs Dataset Update
 
 Traditional Software:
 
@@ -503,7 +505,7 @@ This idea powers:
 
 ---
 
-# Real Industry Example — Fraud Detection
+## Real Industry Example — Fraud Detection
 
 Imagine a bank.
 
@@ -538,7 +540,7 @@ and continuously learns new fraud patterns.
 
 ---
 
-# Modern Systems Use Both
+## Modern Systems Use Both
 
 A beginner mistake is assuming:
 
@@ -590,29 +592,24 @@ Both work together.
 
 ---
 
-# Strengths and Weaknesses
+## Strengths and Weaknesses
 
 ## Rule-Based Programming
 
 ### Strengths
 
-✅ Fast
-
-✅ Transparent
-
-✅ Easy to Debug
-
-✅ Predictable
+* Fast
+* Transparent
+* Easy to Debug
+* Predictable
 
 ---
 
 ### Weaknesses
 
-❌ Doesn't Adapt
-
-❌ Difficult to Scale
-
-❌ Breaks in Dynamic Environments
+* Doesn't Adapt
+* Difficult to Scale
+* Breaks in Dynamic Environments
 
 ---
 
@@ -620,29 +617,23 @@ Both work together.
 
 ### Strengths
 
-✅ Learns Patterns
-
-✅ Handles Complexity
-
-✅ Adapts to Change
-
-✅ Scales with Data
+* Learns Patterns
+* Handles Complexity
+* Adapts to Change
+* Scales with Data
 
 ---
 
 ### Weaknesses
 
-❌ Requires Data
-
-❌ Requires Training
-
-❌ Can Be Difficult to Explain
-
-❌ Can Make Mistakes
+* Requires Data
+* Requires Training
+* Can Be Difficult to Explain
+* Can Make Mistakes
 
 ---
 
-# Decision Framework
+## Decision Framework
 
 When facing a problem, ask:
 
@@ -710,7 +701,7 @@ because maintaining millions of rules became impossible.
 
 ---
 
-# Interview Insight
+## Interview Insight
 
 A very common interview question:
 
@@ -782,7 +773,7 @@ Unknown Patterns
 
 ---
 
-# Practice Exercise
+## Practice Exercise
 
 Classify each problem as either:
 

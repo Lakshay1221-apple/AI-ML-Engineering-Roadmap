@@ -1,6 +1,6 @@
 # Section 3 — Why Machine Learning Exists
 
-<div align="center">
+---
 
 # Why Machine Learning Exists
 
@@ -9,8 +9,6 @@
 ![Topic](https://img.shields.io/badge/Topic-Why%20ML%20Exists-blue)
 ![Difficulty](https://img.shields.io/badge/Level-Beginner-green)
 ![Importance](https://img.shields.io/badge/Foundation-Critical-red)
-
-</div>
 
 ---
 
@@ -28,7 +26,9 @@ By the end of this section, you should be able to:
 
 ---
 
-# The Big Question
+# Main Content
+
+## The Big Question
 
 Before Machine Learning existed, software engineers solved problems using traditional programming.
 
@@ -42,7 +42,7 @@ The answer is simple:
 
 ---
 
-# Traditional Programming Works Brilliantly... Until It Doesn't
+## Traditional Programming Works Brilliantly... Until It Doesn't
 
 For many problems, traditional programming is perfect.
 
@@ -82,7 +82,7 @@ Traditional programming shines here.
 
 ---
 
-# The Complexity Wall
+## The Complexity Wall
 
 Now consider a very different problem.
 
@@ -151,13 +151,13 @@ Humans cannot write enough rules.
 
 This is called:
 
-# The Complexity Wall
+## The Complexity Wall
 
 > The point at which the number of rules required to solve a problem becomes too large, too dynamic, or too complex for humans to manage.
 
 ---
 
-# Key Insight
+## Key Insight
 
 Traditional programming struggles when:
 
@@ -172,7 +172,7 @@ These are exactly the types of problems Machine Learning was designed to solve.
 
 ---
 
-# The Classic Example: Spam Detection
+## The Classic Example: Spam Detection
 
 Let's look at one of the most famous Machine Learning problems.
 
@@ -259,7 +259,7 @@ The system becomes impossible to maintain.
 
 ---
 
-# Why Hardcoded Rules Fail
+## Why Hardcoded Rules Fail
 
 ## Problem 1 — Infinite Variations
 
@@ -308,7 +308,7 @@ Hardcoded systems struggle with context.
 
 ---
 
-# The Machine Learning Solution
+## The Machine Learning Solution
 
 Instead of manually writing rules:
 
@@ -352,7 +352,7 @@ Without humans explicitly coding these rules.
 
 ---
 
-# What Makes ML Different?
+## What Makes ML Different?
 
 Traditional programming asks:
 
@@ -370,7 +370,7 @@ This is a massive shift in thinking.
 
 ---
 
-# Another Example: Self-Driving Cars
+## Another Example: Self-Driving Cars
 
 Imagine writing rules for driving.
 
@@ -406,7 +406,7 @@ instead of relying on manually written rules.
 
 ---
 
-# Another Example: Language Translation
+## Another Example: Language Translation
 
 Translate:
 
@@ -435,7 +435,7 @@ Machine Learning learns language patterns from massive datasets.
 
 ---
 
-# Deterministic vs Probabilistic Systems
+## Deterministic vs Probabilistic Systems
 
 This is an important industry concept.
 
@@ -483,7 +483,7 @@ Most ML systems are probabilistic.
 
 ---
 
-# When Should You Use Machine Learning?
+## When Should You Use Machine Learning?
 
 Not every problem needs ML.
 
@@ -493,11 +493,11 @@ This is a common beginner mistake.
 
 ## Use Traditional Programming When
 
-✅ Rules are known
+Rules are known
 
-✅ Logic is explicit
+Logic is explicit
 
-✅ Calculations are deterministic
+Calculations are deterministic
 
 Examples:
 
@@ -511,11 +511,11 @@ Examples:
 
 ## Use Machine Learning When
 
-✅ Rules are unknown
+Rules are unknown
 
-✅ Patterns exist in data
+Patterns exist in data
 
-✅ Human judgment is involved
+Human judgment is involved
 
 Examples:
 
@@ -528,19 +528,19 @@ Examples:
 
 ---
 
-# 📊 Code vs Machine Learning
+## Code vs Machine Learning
 
 | Feature           | Traditional Programming | Machine Learning |
 | ----------------- | ----------------------- | ---------------- |
-| Rules Known       | ✅ Yes                   | ❌ Not Required   |
-| Learns from Data  | ❌ No                    | ✅ Yes            |
-| Handles Ambiguity | ❌ Poorly                | ✅ Well           |
-| Adapts Over Time  | ❌ No                    | ✅ Yes            |
+| Rules Known       | Yes                   | Not Required   |
+| Learns from Data  | No                    | Yes            |
+| Handles Ambiguity | Poorly                | Well           |
+| Adapts Over Time  | No                    | Yes            |
 | Best For          | Logic Problems          | Pattern Problems |
 
 ---
 
-# Why Companies Love Machine Learning
+# Real-World Applications
 
 Machine Learning helps businesses:
 
@@ -592,7 +592,7 @@ Fraud or Genuine Transaction?
 
 ---
 
-# Common Beginner Misconceptions
+# Common Misconceptions
 
 ## ML Replaces Programming
 
@@ -701,7 +701,7 @@ Unknown Patterns
 
 ---
 
-# Thought Exercise
+## Thought Exercise
 
 Imagine you are asked to build:
 

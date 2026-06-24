@@ -1,6 +1,6 @@
 # Section 2 — What is Machine Learning?
 
-<div align="center">
+---
 
 # Machine Learning
 
@@ -9,8 +9,6 @@
 ![Topic](https://img.shields.io/badge/Topic-Machine%20Learning-blue)
 ![Difficulty](https://img.shields.io/badge/Level-Beginner-green)
 ![Importance](https://img.shields.io/badge/Foundation-Critical-red)
-
-</div>
 
 ---
 
@@ -29,7 +27,9 @@ By the end of this section, you should be able to:
 
 ---
 
-# What is Machine Learning?
+# Main Content
+
+## What is Machine Learning?
 
 Machine Learning (ML) is a branch of Artificial Intelligence that enables computers to learn patterns from data and improve their performance without being explicitly programmed for every possible scenario.
 
@@ -63,7 +63,7 @@ Uses them to make predictions
 
 ---
 
-# The Birth of Machine Learning
+## The Birth of Machine Learning
 
 Machine Learning did not suddenly appear with ChatGPT.
 
@@ -106,7 +106,7 @@ Machine Learning was created to solve problems where writing explicit rules is i
 
 ---
 
-# Tom Mitchell's Famous Definition (1997)
+## Tom Mitchell's Famous Definition (1997)
 
 One of the most cited definitions in Machine Learning.
 
@@ -153,11 +153,11 @@ F1 Score
 
 If performance improves as more examples are seen:
 
-✅ The system is learning.
+The system is learning.
 
 ---
 
-# The Great Paradigm Shift
+## The Great Paradigm Shift
 
 Understanding this single idea will make the rest of Machine Learning much easier.
 
@@ -210,7 +210,7 @@ Prediction
 
 ---
 
-# The Three Pillars of Machine Learning
+## The Three Pillars of Machine Learning
 
 Every Machine Learning system is built upon three core concepts.
 
@@ -291,7 +291,7 @@ Prediction is the ultimate goal of Machine Learning.
 
 ---
 
-# Real-World Applications of Machine Learning
+# Real-World Applications
 
 You interact with ML dozens of times every day.
 
@@ -360,7 +360,7 @@ ChatGPT is built using Deep Learning, which itself is a subset of Machine Learni
 
 ---
 
-# ML Inside AI
+## ML Inside AI
 
 Understanding the hierarchy is critical.
 
@@ -382,7 +382,7 @@ Artificial Intelligence
 
 ---
 
-# Popular Machine Learning Libraries
+## Popular Machine Learning Libraries
 
 In modern ML development, we rarely implement algorithms from scratch.
 
@@ -486,7 +486,7 @@ Widely used in production systems.
 
 ---
 
-# 📊 Traditional Programming vs Machine Learning
+## Traditional Programming vs Machine Learning
 
 | Feature                  | Traditional Programming | Machine Learning      |
 | ------------------------ | ----------------------- | --------------------- |
@@ -498,7 +498,7 @@ Widely used in production systems.
 
 ---
 
-# Common Beginner Misconceptions
+# Common Misconceptions
 
 ### ML Thinks Like Humans
 

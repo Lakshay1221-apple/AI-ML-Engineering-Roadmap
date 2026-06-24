@@ -1,5 +1,3 @@
-<div align="center">
-
 <img src="https://img.shields.io/badge/Duration-45%20Days-blueviolet?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-orange?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Language-Python%203.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" />
@@ -12,8 +10,6 @@
 Every concept explained. Every function justified. Every module ends with a real project.
 
 [Getting Started](#getting-started) · [Roadmap](#series-roadmap) · [Projects](#mini-projects-summary) · [Resources](#resources) · [Contributing](#contributing)
-
-</div>
 
 ---
 
@@ -625,9 +621,5 @@ You are free to use, share, and adapt this material with attribution.
 
 ---
 
-<div align="center">
-
 **Built by [Lakshay](https://github.com/yourusername)**  
 *From ML to LLM — one day at a time.*
-
-</div>
