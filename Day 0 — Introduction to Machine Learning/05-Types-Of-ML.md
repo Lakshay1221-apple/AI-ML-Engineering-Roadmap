@@ -122,6 +122,9 @@ Do we have labels?
 
 This diagram alone can help many beginners quickly identify the correct learning paradigm.
 
+<img width="744" height="400" alt="image" src="https://github.com/user-attachments/assets/65d937b1-ccb7-4057-9f5c-3f70a1b27273" />
+
+
 ---
 
 ## Supervised Learning
@@ -657,6 +660,8 @@ to improve responses.
 | Industry Usage      | Very High                  | High              | Moderate        | Specialized         |
 | Difficulty          | Low                        | Medium            | Medium          | Very High           |
 | Common Applications | Classification, Regression | Clustering        | Medical AI      | Robotics, Games     |
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d1c8b41e-665e-49b7-8b1a-faa90e59819d" />
 
 ---
 
