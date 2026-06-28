@@ -88,6 +88,9 @@ Personalizing Recommendations
 
 These are tasks where writing thousands of manual rules would be nearly impossible.
 
+<img width="554" height="524" alt="image" src="https://github.com/user-attachments/assets/bed0964e-4c4d-418b-9688-6aedb7f220ba" />
+
+
 ---
 
 # Industry 1 — Healthcare
