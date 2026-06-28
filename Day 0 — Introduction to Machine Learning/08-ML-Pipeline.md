@@ -138,6 +138,9 @@ Production
 
 This structure is commonly used in industry and helps organize responsibilities across teams.
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/5771b9ce-bb5c-46ac-9d8a-bcbc8871f821" />
+
+
 ---
 
 # Step 1 — Problem Definition
