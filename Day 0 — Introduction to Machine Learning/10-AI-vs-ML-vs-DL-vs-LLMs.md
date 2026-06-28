@@ -54,39 +54,9 @@ The easiest way to understand the relationship is to think of Russian nesting do
 
 Each layer exists inside a larger layer.
 
-```text
-Artificial Intelligence (AI)
-│
-└── Machine Learning (ML)
-      │
-      └── Deep Learning (DL)
-            │
-            └── Large Language Models (LLMs)
-```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/93c21355-cb08-4a05-b221-0291382d0a66" />
 
-Another way to visualize it:
 
-```text
-Largest Scope
-      │
-      ▼
-
-Artificial Intelligence
-      │
-      ▼
-
-Machine Learning
-      │
-      ▼
-
-Deep Learning
-      │
-      ▼
-
-Large Language Models
-
-Smallest Scope
-```
 
 The key rule is:
 
@@ -538,33 +508,8 @@ Mistral
 
 # The Complete Hierarchy in One Diagram
 
-```text
-Artificial Intelligence
-│
-├── Rule-Based Systems
-│
-├── Expert Systems
-│
-└── Machine Learning
-      │
-      ├── Linear Regression
-      ├── Random Forest
-      ├── XGBoost
-      │
-      └── Deep Learning
-            │
-            ├── CNNs
-            ├── RNNs
-            ├── Transformers
-            │
-            └── Large Language Models
-                  │
-                  ├── ChatGPT
-                  ├── Claude
-                  ├── Gemini
-                  ├── LLaMA
-                  └── Qwen
-```
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/af8bbbb6-6f02-4d45-b05c-fe3dc7631f01" />
+
 
 This is the most important diagram in this chapter.
 
