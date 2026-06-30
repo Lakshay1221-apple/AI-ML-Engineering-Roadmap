@@ -1,10 +1,20 @@
-# SECTION 1 — Data Engineering Mindset
+# Section 1 — Data Engineering Mindset
+
+---
+
+# Data Engineering Mindset
+
+### Understanding Why Data Quality Matters More Than Model Complexity
+
+![Topic](https://img.shields.io/badge/Topic-Data%20Engineering-blue)
+![Difficulty](https://img.shields.io/badge/Level-Beginner-green)
+![Importance](https://img.shields.io/badge/Foundation-Critical-red)
 
 ---
 
 # Learning Objectives
 
-After completing this section, students should be able to:
+By the end of this section, you should be able to:
 
 * Explain why the tech industry prioritizes data-centric AI over model-centric AI.
 * Deconstruct the anatomy of real-world datasets into records, features, and labels.

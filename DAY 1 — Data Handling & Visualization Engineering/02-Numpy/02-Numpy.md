@@ -1,4 +1,18 @@
-# Array Creation, Shape Engineering, Indexing, and Slicing
+# Section 2 (Part 2) — Array Creation, Shape Engineering, Indexing, and Slicing
+
+---
+
+# Array Creation & Shape Engineering
+
+### Creating, Inspecting, Indexing, and Slicing NumPy Arrays
+
+![Topic](https://img.shields.io/badge/Topic-NumPy%20Basics-blue)
+![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Importance](https://img.shields.io/badge/Foundation-Critical-red)
+
+---
+
+# Why This Section Matters
 
 In the previous section, we learned that NumPy's power comes from its efficient memory layout and the `ndarray` data structure. Understanding how arrays are stored is important, but as an ML engineer, most of your daily work revolves around creating arrays, manipulating their shapes, selecting specific portions of data, and preparing them for downstream models.
 

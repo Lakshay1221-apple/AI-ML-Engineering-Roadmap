@@ -1,4 +1,18 @@
-# Boolean Masking, Vectorization, Broadcasting, Linear Algebra, and Memory Optimization
+# Section 2 (Part 3) — Boolean Masking, Vectorization, Broadcasting, Linear Algebra, and Memory Optimization
+
+---
+
+# Advanced NumPy Operations
+
+### Vectorization, Broadcasting, Linear Algebra, and Memory Optimization
+
+![Topic](https://img.shields.io/badge/Topic-Advanced%20NumPy-blue)
+![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Importance](https://img.shields.io/badge/Foundation-Critical-red)
+
+---
+
+# Why This Section Matters
 
 By this point, we understand how NumPy stores data and how arrays can be created, reshaped, indexed, and sliced. These skills allow us to access and organize data efficiently.
 

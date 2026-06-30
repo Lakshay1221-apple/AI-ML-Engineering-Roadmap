@@ -1,10 +1,20 @@
-# SECTION 2 — NumPy Engineering
+# Section 2 — NumPy Engineering
+
+---
+
+# NumPy Engineering
+
+### The Numerical Foundation of Machine Learning and Large-Scale Computing
+
+![Topic](https://img.shields.io/badge/Topic-NumPy%20Engineering-blue)
+![Level](https://img.shields.io/badge/Level-Intermediate-orange)
+![Importance](https://img.shields.io/badge/Foundation-Critical-red)
 
 ---
 
 # Learning Objectives
 
-After completing this section, students should be able to:
+By the end of this section, you should be able to:
 
 * Explain the internal memory architecture of the **ndarray** and why it outperforms standard Python data structures.
 * Execute multi-dimensional indexing, slicing, and **boolean masking** without creating unintentional memory copies.
