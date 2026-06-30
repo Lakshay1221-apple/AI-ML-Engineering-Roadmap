@@ -25,8 +25,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## The Most Important Rule in Machine Learning
 
 In the previous section, we learned that:
@@ -131,29 +129,21 @@ Humans naturally recognize obvious mistakes.
 
 Consider:
 
-```text
 Customer Age = 999
-```
 
 A human immediately knows:
 
-```text
 Impossible
-```
 
 A Machine Learning model does not.
 
 Instead, it sees:
 
-```text
 999
-```
 
 and assumes:
 
-```text
 999 is a valid observation.
-```
 
 The model will incorporate that value into its mathematical calculations and adjust its understanding accordingly.
 
@@ -216,11 +206,9 @@ They expect actual values.
 
 When missing values appear:
 
-```text
-23
-45
-?
-```
+* 23
+* 45
+* ?
 
 the algorithm cannot determine how the missing value should influence the model.
 
@@ -377,28 +365,22 @@ Examples:
 
 ### Image Noise
 
-```text
-Blurry Image
-Poor Lighting
-Camera Distortion
-```
+* Blurry Image
+* Poor Lighting
+* Camera Distortion
 
 ### Audio Noise
 
-```text
-Wind
-Traffic Sounds
-Static
-Background Conversations
-```
+* Wind
+* Traffic Sounds
+* Static
+* Background Conversations
 
 ### Text Noise
 
-```text
-Spelling Errors
-Random Characters
-Formatting Issues
-```
+* Spelling Errors
+* Random Characters
+* Formatting Issues
 
 ---
 
@@ -406,15 +388,11 @@ Formatting Issues
 
 The model must separate:
 
-```text
 Signal
-```
 
 from
 
-```text
 Noise
-```
 
 When noise dominates:
 
@@ -466,21 +444,15 @@ A useful way to think about Machine Learning is:
 
 Notice that:
 
-```text
 Good Predictions
-```
 
 depend on
 
-```text
 Good Models
-```
 
 which themselves depend on
 
-```text
 High Quality Data
-```
 
 Data quality sits at the foundation of the entire system.
 

@@ -25,8 +25,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why This Section Matters
 
 So far, we have discussed:
@@ -149,9 +147,7 @@ Every Machine Learning project begins with a business problem.
 
 Before collecting data or selecting algorithms, we must answer:
 
-```text
 What problem are we trying to solve?
-```
 
 ---
 
@@ -159,27 +155,19 @@ What problem are we trying to solve?
 
 ### Netflix
 
-```text
 Recommend movies users may enjoy.
-```
 
 ### Bank
 
-```text
 Detect fraudulent transactions.
-```
 
 ### Hospital
 
-```text
 Predict disease risk.
-```
 
 ### E-Commerce Platform
 
-```text
 Predict whether a customer will make a purchase.
-```
 
 ---
 
@@ -217,42 +205,32 @@ No Machine Learning
 
 ### Databases
 
-```text
-SQL
-PostgreSQL
-MySQL
-MongoDB
-```
+* SQL
+* PostgreSQL
+* MySQL
+* MongoDB
 
 ### APIs
 
-```text
-Twitter API
-Google Maps API
-Weather APIs
-```
+* Twitter API
+* Google Maps API
+* Weather APIs
 
 ### Sensors
 
-```text
-Cameras
-IoT Devices
-GPS Systems
-```
+* Cameras
+* IoT Devices
+* GPS Systems
 
 ### Web Scraping
 
-```text
-Websites
-Product Listings
-Public Records
-```
+* Websites
+* Product Listings
+* Public Records
 
 ---
 
-## Goal
-
-Collect data that accurately represents the problem being solved.
+**Goal:** Collect data that accurately represents the problem being solved.
 
 ---
 
@@ -262,17 +240,11 @@ Raw data is messy.
 
 As we learned in the GIGO section, real-world datasets contain:
 
-```text
-Missing Values
-
-Duplicate Records
-
-Incorrect Labels
-
-Outliers
-
-Noise
-```
+* Missing Values
+* Duplicate Records
+* Incorrect Labels
+* Outliers
+* Noise
 
 Before training any model, we must fix these issues.
 
@@ -315,15 +287,10 @@ Before building models, we must understand the data.
 
 EDA helps answer questions such as:
 
-```text
-What patterns exist?
-
-What relationships exist?
-
-Are there anomalies?
-
-What features appear important?
-```
+* What patterns exist?
+* What relationships exist?
+* Are there anomalies?
+* What features appear important?
 
 ---
 
@@ -331,21 +298,17 @@ What features appear important?
 
 ### Summary Statistics
 
-```text
-Mean
-Median
-Mode
-Standard Deviation
-```
+* Mean
+* Median
+* Mode
+* Standard Deviation
 
 ### Visualization
 
-```text
-Histograms
-Scatter Plots
-Bar Charts
-Heatmaps
-```
+* Histograms
+* Scatter Plots
+* Bar Charts
+* Heatmaps
 
 ---
 
@@ -353,10 +316,8 @@ Heatmaps
 
 Suppose we discover:
 
-```text
-Users who log in weekly
-are far less likely to cancel subscriptions.
-```
+* Users who log in weekly
+* are far less likely to cancel subscriptions.
 
 This insight may become an important feature later.
 
@@ -392,10 +353,8 @@ The model learns using these inputs.
 
 Original Data:
 
-```text
-Total Revenue
-Total Orders
-```
+* Total Revenue
+* Total Orders
 
 New Feature:
 
@@ -474,9 +433,7 @@ The test set remains hidden until evaluation.
 
 ---
 
-## Goal
-
-Measure the model's ability to generalize to unseen data.
+**Goal:** Measure the model's ability to generalize to unseen data.
 
 ---
 
@@ -516,17 +473,11 @@ The learned relationship is stored as model parameters.
 
 Algorithms that may be trained:
 
-```text
-Linear Regression
-
-Decision Trees
-
-Random Forest
-
-XGBoost
-
-Neural Networks
-```
+* Linear Regression
+* Decision Trees
+* Random Forest
+* XGBoost
+* Neural Networks
 
 ---
 
@@ -556,33 +507,21 @@ Calculate Metrics
 
 ### Classification
 
-```text
-Accuracy
-
-Precision
-
-Recall
-
-F1 Score
-```
+* Accuracy
+* Precision
+* Recall
+* F1 Score
 
 ### Regression
 
-```text
-MAE
-
-MSE
-
-RMSE
-
-R² Score
-```
+* MAE
+* MSE
+* RMSE
+* R² Score
 
 ---
 
-## Goal
-
-Determine whether the model performs well on data it has never seen before.
+**Goal:** Determine whether the model performs well on data it has never seen before.
 
 ---
 
@@ -624,17 +563,11 @@ Fraud Detection Model
 
 ## Common Deployment Platforms
 
-```text
-AWS
-
-Google Cloud
-
-Azure
-
-Docker
-
-Kubernetes
-```
+* AWS
+* Google Cloud
+* Azure
+* Docker
+* Kubernetes
 
 ---
 
@@ -672,25 +605,17 @@ Model Accuracy Drops
 
 This phenomenon is called:
 
-```text
 Data Drift
-```
 
 ---
 
 ## Monitoring Tasks
 
-```text
-Monitor Accuracy
-
-Monitor Data Quality
-
-Detect Data Drift
-
-Collect New Data
-
-Trigger Retraining
-```
+* Monitor Accuracy
+* Monitor Data Quality
+* Detect Data Drift
+* Collect New Data
+* Trigger Retraining
 
 ---
 
@@ -736,29 +661,20 @@ The process repeats continuously.
 
 Many beginners assume:
 
-```text
-80% Training
-20% Data
-```
+* 80% Training
+* 20% Data
 
 Reality:
 
-```text
-80% Data
-20% Models
-```
+* 80% Data
+* 20% Models
 
 Most engineering effort is spent on:
 
-```text
-Data Collection
-
-Data Cleaning
-
-EDA
-
-Feature Engineering
-```
+* Data Collection
+* Data Cleaning
+* EDA
+* Feature Engineering
 
 not model training.
 

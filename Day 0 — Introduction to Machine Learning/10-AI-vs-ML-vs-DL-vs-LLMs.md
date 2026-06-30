@@ -25,8 +25,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why This Section Matters
 
 One of the biggest sources of confusion in technology is the misuse of the terms:
@@ -237,10 +235,8 @@ Suppose we want to detect spam emails.
 
 Traditional Programming:
 
-```text
-IF "Free Money"
-THEN Spam
-```
+* IF "Free Money"
+* THEN Spam
 
 Machine Learning:
 
@@ -280,17 +276,11 @@ These algorithms typically work best on structured data.
 
 ## Real-World Applications
 
-```text
-House Price Prediction
-
-Credit Scoring
-
-Customer Churn Prediction
-
-Sales Forecasting
-
-Fraud Detection
-```
+* House Price Prediction
+* Credit Scoring
+* Customer Churn Prediction
+* Sales Forecasting
+* Fraud Detection
 
 ---
 
@@ -302,15 +292,10 @@ Traditional Machine Learning struggles with unstructured data.
 
 Examples:
 
-```text
-Images
-
-Audio
-
-Video
-
-Language
-```
+* Images
+* Audio
+* Video
+* Language
 
 These data types are too complex for manual feature engineering.
 
@@ -368,9 +353,7 @@ Dog
 
 Traditional ML:
 
-```text
 Human manually defines features.
-```
 
 Deep Learning:
 
@@ -390,17 +373,11 @@ This automatic feature extraction is one of Deep Learning's greatest strengths.
 
 ## Deep Learning Success Areas
 
-```text
-Computer Vision
-
-Speech Recognition
-
-Natural Language Processing
-
-Autonomous Vehicles
-
-Medical Imaging
-```
+* Computer Vision
+* Speech Recognition
+* Natural Language Processing
+* Autonomous Vehicles
+* Medical Imaging
 
 ---
 
@@ -412,9 +389,7 @@ Large Language Models are a specialized form of Deep Learning designed specifica
 
 They are built using massive neural networks called:
 
-```text
 Transformers
-```
 
 and trained on enormous collections of text.
 
@@ -446,21 +421,15 @@ containing billions or even trillions of words.
 
 At their core, LLMs perform a surprisingly simple task:
 
-```text
 Predict The Next Word
-```
 
 Example:
 
-```text
 The capital of France is _____
-```
 
 Prediction:
 
-```text
 Paris
-```
 
 This simple objective scales into powerful capabilities.
 
@@ -532,51 +501,37 @@ Let's classify some products.
 
 ### Example 1
 
-```text
 Simple Rule-Based Calculator
-```
 
 Classification:
 
-```text
 AI
-```
 
 ---
 
 ### Example 2
 
-```text
 Credit Risk Prediction System
-```
 
 Classification:
 
-```text
 Machine Learning
-```
 
 ---
 
 ### Example 3
 
-```text
 Tesla Vision System
-```
 
 Classification:
 
-```text
 Deep Learning
-```
 
 ---
 
 ### Example 4
 
-```text
 ChatGPT
-```
 
 Classification:
 
@@ -600,21 +555,14 @@ Engineers are more precise.
 
 Instead of saying:
 
-```text
 AI Model
-```
 
 an engineer might say:
 
-```text
-XGBoost Model
-
-CNN
-
-Transformer
-
-LLM
-```
+* XGBoost Model
+* CNN
+* Transformer
+* LLM
 
 Precision matters.
 
@@ -663,9 +611,7 @@ Deep Learning requires:
 
 For many structured-data problems:
 
-```text
 XGBoost
-```
 
 often outperforms Deep Learning.
 
@@ -745,11 +691,9 @@ In this section, you learned:
 
 Most importantly, you learned the fundamental rule:
 
-```text
-All LLMs are Deep Learning.
-All Deep Learning is Machine Learning.
-All Machine Learning is Artificial Intelligence.
-```
+* All LLMs are Deep Learning.
+* All Deep Learning is Machine Learning.
+* All Machine Learning is Artificial Intelligence.
 
 Understanding this hierarchy will make every future topic in Generative AI, Computer Vision, NLP, and Agentic AI significantly easier to learn.
 

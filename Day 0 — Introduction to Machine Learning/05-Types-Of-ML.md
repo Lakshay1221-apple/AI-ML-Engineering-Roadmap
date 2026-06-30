@@ -25,8 +25,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Understanding the Four Major Learning Paradigms
 
 Machine Learning is not a single technique.
@@ -137,9 +135,7 @@ The model learns a mapping between inputs and outputs.
 
 Formally:
 
-```text
 Input → Output
-```
 
 The goal is to learn the function that connects the two.
 
@@ -167,9 +163,7 @@ The student learns the pattern.
 
 Eventually:
 
-```text
 12 + 15 = ?
-```
 
 The student can answer correctly without seeing the solution beforehand.
 
@@ -181,9 +175,7 @@ This is exactly how Supervised Learning works.
 
 Training Data:
 
-```text
 House Size → House Price
-```
 
 Example:
 
@@ -197,15 +189,11 @@ The algorithm learns the relationship.
 
 Later:
 
-```text
 1800 sq ft
-```
 
 becomes
 
-```text
 Predicted Price
-```
 
 ---
 
@@ -224,11 +212,9 @@ Examples:
 
 Output:
 
-```text
-125000
-78.5
-42.3
-```
+* 125000
+* 78.5
+* 42.3
 
 Numerical values.
 
@@ -352,27 +338,18 @@ Patterns emerge automatically.
 
 Input:
 
-```text
 Customer Data
-```
 
 Output:
 
-```text
 Customer Groups
-```
 
 The algorithm might discover:
 
-```text
-Premium Customers
-
-Budget Customers
-
-Occasional Customers
-
-High-Risk Customers
-```
+* Premium Customers
+* Budget Customers
+* Occasional Customers
+* High-Risk Customers
 
 without ever being told these groups existed.
 
@@ -462,9 +439,7 @@ Data is cheap.
 
 Consider:
 
-```text
 1,000,000 Medical Images
-```
 
 Collecting them may take days.
 

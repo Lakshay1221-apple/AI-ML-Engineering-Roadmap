@@ -24,8 +24,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Moving from Theory to Reality
 
 So far, we have discussed:
@@ -42,9 +40,7 @@ A natural question follows:
 
 The answer is:
 
-```text
 Almost Everywhere.
-```
 
 Every day, billions of people interact with Machine Learning systems without realizing it.
 
@@ -61,10 +57,8 @@ Machine Learning is working behind the scenes.
 
 Traditional software follows explicit rules.
 
-```text
-IF condition
-THEN action
-```
+* IF condition
+* THEN action
 
 Machine Learning learns patterns directly from data.
 
@@ -207,19 +201,14 @@ Compare Against History
 
 If a transaction appears unusual:
 
-```text
 Possible Fraud
-```
 
 the system immediately flags it.
 
 This is often implemented using:
 
-```text
-Unsupervised Learning
-
-Anomaly Detection
-```
+* Unsupervised Learning
+* Anomaly Detection
 
 ---
 
@@ -227,9 +216,7 @@ Anomaly Detection
 
 Banks must decide:
 
-```text
 Will this customer repay a loan?
-```
 
 Machine Learning analyzes:
 
@@ -242,10 +229,8 @@ to estimate default risk.
 
 This is a classic:
 
-```text
-Supervised Learning
-Classification Problem
-```
+* Supervised Learning
+* Classification Problem
 
 ---
 
@@ -255,12 +240,10 @@ Modern financial markets operate at incredible speeds.
 
 Machine Learning systems analyze:
 
-```text
-Stock Prices
-Market Trends
-News
-Economic Indicators
-```
+* Stock Prices
+* Market Trends
+* News
+* Economic Indicators
 
 and make trading decisions automatically.
 
@@ -337,13 +320,9 @@ Machine Learning allows businesses to adjust prices automatically.
 
 Examples:
 
-```text
-Uber Surge Pricing
-
-Flight Ticket Pricing
-
-Hotel Pricing
-```
+* Uber Surge Pricing
+* Flight Ticket Pricing
+* Hotel Pricing
 
 Prices change dynamically based on:
 
@@ -367,21 +346,15 @@ Machine Learning focuses on behavior.
 
 Instead of asking:
 
-```text
 Is this attack known?
-```
 
 ML asks:
 
-```text
 Is this behavior unusual?
-```
 
 This enables detection of:
 
-```text
 Zero-Day Attacks
-```
 
 which are attacks that have never been seen before.
 
@@ -432,12 +405,10 @@ Object Detection
 
 Modern vehicles combine information from:
 
-```text
-Cameras
-Radar
-LiDAR
-GPS
-```
+* Cameras
+* Radar
+* LiDAR
+* GPS
 
 to create a detailed understanding of the environment.
 
@@ -475,17 +446,11 @@ Examples include:
 
 These systems perform tasks such as:
 
-```text
-Question Answering
-
-Summarization
-
-Translation
-
-Code Generation
-
-Content Creation
-```
+* Question Answering
+* Summarization
+* Translation
+* Code Generation
+* Content Creation
 
 ---
 
@@ -648,9 +613,7 @@ False.
 
 Most modern AI systems function as:
 
-```text
 AI Copilot
-```
 
 rather than complete replacements.
 
@@ -666,9 +629,7 @@ False.
 
 Every example discussed in this section is a form of:
 
-```text
 Narrow AI
-```
 
 Each system specializes in a specific task.
 

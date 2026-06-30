@@ -21,8 +21,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why Understanding Dataset Anatomy Matters
 
 Many beginners jump directly into Machine Learning algorithms without first understanding the structure of the data being used.
@@ -204,12 +202,10 @@ These are columns.
 
 Imagine filling out a form.
 
-```text
-Name:
-Age:
-Salary:
-Address:
-```
+* Name:
+* Age:
+* Salary:
+* Address:
 
 Each field represents a column.
 
@@ -332,9 +328,7 @@ Without useful clues, accurate prediction becomes impossible.
 
 In Machine Learning:
 
-```text
 Features = X
-```
 
 or
 
@@ -363,9 +357,7 @@ In our loan approval example:
 
 The label is:
 
-```text
 Loan Approved
-```
 
 This is the answer the model must learn.
 
@@ -377,15 +369,11 @@ Imagine a teacher giving practice questions.
 
 The student sees:
 
-```text
 Question
-```
 
 The teacher knows:
 
-```text
 Correct Answer
-```
 
 The correct answer is equivalent to the label.
 
@@ -399,9 +387,7 @@ Machine Learning works in exactly the same way.
 
 Labels are commonly represented as:
 
-```text
 y
-```
 
 or
 
@@ -535,19 +521,15 @@ Example:
 
 Consider this sequence:
 
-```text
-30°C
-31°C
-29°C
-```
+* 30°C
+* 31°C
+* 29°C
 
 Now shuffle it:
 
-```text
-29°C
-30°C
-31°C
-```
+* 29°C
+* 30°C
+* 31°C
 
 The trend has changed.
 
@@ -632,13 +614,10 @@ Although humans see objects, machines initially see numbers.
 
 Example:
 
-```text
-Pixel Matrix
-
-[255 255 255]
-[120 130 140]
-[ 50  60  70]
-```
+* Pixel Matrix
+* [255 255 255]
+* [120 130 140]
+* [ 50  60  70]
 
 Each number represents pixel intensity.
 
@@ -648,15 +627,11 @@ Each number represents pixel intensity.
 
 Humans:
 
-```text
 Cat
-```
 
 Machine:
 
-```text
 Matrix of Numbers
-```
 
 The entire field of Computer Vision exists to bridge this gap.
 

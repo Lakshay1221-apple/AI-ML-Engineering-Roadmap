@@ -100,9 +100,7 @@ Where do engineers spend most of their time?
 
 ### Q12. A dataset contains:
 
-```text
 Age | Salary | Purchased
-```
 
 Identify:
 
@@ -133,10 +131,8 @@ Explain it using your own words.
 
 What should you check first:
 
-```text
-A. The Algorithm
-B. The Data
-```
+* A. The Algorithm
+* B. The Data
 
 Why?
 
@@ -308,9 +304,7 @@ These questions combine multiple sections.
 
 You trained:
 
-```text
 State-of-the-Art Deep Learning Model
-```
 
 but the predictions are terrible.
 
@@ -344,23 +338,17 @@ Why might a simple Random Forest outperform a sophisticated Deep Learning model?
 
 A company has:
 
-```text
 10 Million Rows
-```
 
 but 30% of the labels are incorrect.
 
 Would you rather:
 
-```text
 Keep the dataset
-```
 
 or
 
-```text
 Spend time cleaning it?
-```
 
 Explain your reasoning.
 

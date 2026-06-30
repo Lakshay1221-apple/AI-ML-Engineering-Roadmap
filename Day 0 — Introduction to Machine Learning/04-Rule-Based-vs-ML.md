@@ -26,8 +26,6 @@ By the end of this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## The Fundamental Question
 
 Imagine your manager asks:
@@ -150,9 +148,7 @@ Spam Labels
 
 The algorithm learns:
 
-```text
 What patterns make an email spam?
-```
 
 ---
 
@@ -228,9 +224,7 @@ This simple diagram explains almost the entire Machine Learning field.
 
 Suppose we want to build:
 
-```text
 Calculator
-```
 
 Question:
 
@@ -283,9 +277,7 @@ Not recommended: Machine Learning
 
 Now consider:
 
-```text
 Spam Detection
-```
 
 ---
 
@@ -306,12 +298,10 @@ Fails quickly.
 
 Spammers evolve.
 
-```text
-FREE MONEY
-FrEe M0ney
-Prize Winner
-Urgent Offer
-```
+* FREE MONEY
+* FrEe M0ney
+* Prize Winner
+* Urgent Offer
 
 Infinite variations appear.
 
@@ -345,9 +335,7 @@ Question:
 
 Can engineers manually write rules for:
 
-```text
 What movie should Lakshay watch tonight?
-```
 
 No.
 
@@ -375,13 +363,11 @@ Terrible recommendation system.
 
 Uses:
 
-```text
-Watch History
-Search History
-Ratings
-Viewing Time
-User Similarities
-```
+* Watch History
+* Search History
+* Ratings
+* Viewing Time
+* User Similarities
 
 to predict what users may enjoy.
 
@@ -417,9 +403,7 @@ No human can write enough rules.
 
 Machine Learning learns from:
 
-```text
 Billions of miles of driving data
-```
 
 instead.
 
@@ -528,13 +512,11 @@ Machine Learning:
 
 Looks at:
 
-```text
-Location
-Time
-Device
-Spending History
-Behavior Pattern
-```
+* Location
+* Time
+* Device
+* Spending History
+* Behavior Pattern
 
 and continuously learns new fraud patterns.
 
@@ -544,9 +526,7 @@ and continuously learns new fraud patterns.
 
 A beginner mistake is assuming:
 
-```text
 Rule-Based OR Machine Learning
-```
 
 Reality:
 
@@ -558,23 +538,19 @@ Most systems use both.
 
 ### Rule-Based Components
 
-```text
-Authentication
-Password Validation
-Database Operations
-Business Logic
-```
+* Authentication
+* Password Validation
+* Database Operations
+* Business Logic
 
 ---
 
 ### ML Components
 
-```text
-Fraud Detection
-Customer Segmentation
-Risk Analysis
-Recommendations
-```
+* Fraud Detection
+* Customer Segmentation
+* Risk Analysis
+* Recommendations
 
 ---
 
@@ -643,9 +619,7 @@ Can I explicitly write the rules?
 
 If YES:
 
-```text
 Use Traditional Programming
-```
 
 ---
 
@@ -655,9 +629,7 @@ Are the rules unknown or changing?
 
 If YES:
 
-```text
 Use Machine Learning
-```
 
 ---
 
@@ -667,9 +639,7 @@ Does success depend on recognizing patterns?
 
 If YES:
 
-```text
 Use Machine Learning
-```
 
 ---
 
@@ -777,11 +747,9 @@ Unknown Patterns
 
 Classify each problem as either:
 
-```text
-Rule-Based
-or
-Machine Learning
-```
+* Rule-Based
+* or
+* Machine Learning
 
 1. ATM PIN Validation
 2. Email Spam Detection

@@ -25,8 +25,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why This Section Matters
 
 Most beginners enter Machine Learning believing that success comes from choosing the most advanced algorithm.
@@ -181,9 +179,7 @@ In Section 2, we discussed Tom Mitchell's famous definition of Machine Learning:
 
 In Machine Learning:
 
-```text
 Experience = Data
-```
 
 Every example, transaction, image, document, review, or sensor reading contributes to the model's experience.
 
@@ -301,11 +297,8 @@ Examples include:
 
 Example:
 
-```text
-Customer Review:
-
-"The delivery was extremely fast and the product quality exceeded my expectations."
-```
+* Customer Review:
+* "The delivery was extremely fast and the product quality exceeded my expectations."
 
 Unlike spreadsheets, this information has no fixed columns or rows.
 
@@ -345,9 +338,7 @@ Bought = Yes
 
 A machine sees:
 
-```text
 [23, 30000] → 1
-```
 
 Where:
 
@@ -444,11 +435,9 @@ This row represents one customer.
 
 Columns represent attributes being measured.
 
-```text
-Age
-Salary
-Bought
-```
+* Age
+* Salary
+* Bought
 
 This dataset contains:
 

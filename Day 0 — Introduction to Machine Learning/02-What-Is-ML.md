@@ -27,8 +27,6 @@ By the end of this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## What is Machine Learning?
 
 Machine Learning (ML) is a branch of Artificial Intelligence that enables computers to learn patterns from data and improve their performance without being explicitly programmed for every possible scenario.
@@ -37,9 +35,7 @@ Instead of telling the computer exactly what to do, we provide examples and allo
 
 ---
 
-## Simple Definition
-
-> Machine Learning is the science of teaching computers to learn from data and make predictions or decisions without explicitly programming every rule.
+**Simple Definition:** Machine Learning is the science of teaching computers to learn from data and make predictions or decisions without explicitly programming every rule.
 
 ---
 
@@ -120,13 +116,10 @@ One of the most cited definitions in Machine Learning.
 
 #### Task (T)
 
-```text
-Classify Emails
-
-Spam
-or
-Not Spam
-```
+* Classify Emails
+* Spam
+* or
+* Not Spam
 
 ---
 
@@ -142,12 +135,10 @@ Labels from Users
 
 #### Performance (P)
 
-```text
-Accuracy
-Precision
-Recall
-F1 Score
-```
+* Accuracy
+* Precision
+* Recall
+* F1 Score
 
 ---
 
@@ -256,12 +247,10 @@ Example:
 
 Spam emails often contain:
 
-```text
-FREE
-WINNER
-URGENT
-CLICK HERE
-```
+* FREE
+* WINNER
+* URGENT
+* CLICK HERE
 
 The model detects these patterns mathematically.
 
@@ -301,9 +290,7 @@ You interact with ML dozens of times every day.
 
 Predict:
 
-```text
 Which video will you watch next?
-```
 
 ---
 
@@ -311,9 +298,7 @@ Which video will you watch next?
 
 Predict:
 
-```text
 Which movie will keep you engaged?
-```
 
 ---
 
@@ -321,9 +306,7 @@ Which movie will keep you engaged?
 
 Predict:
 
-```text
 Spam or Not Spam?
-```
 
 ---
 
@@ -446,9 +429,7 @@ from sklearn.linear_model import LinearRegression
 
 Commonly called:
 
-```text
 sklearn
-```
 
 ---
 
@@ -534,9 +515,7 @@ Quality matters more than quantity.
 
 Many beginners think:
 
-```text
 AI = ChatGPT
-```
 
 Reality:
 
@@ -601,9 +580,7 @@ LLM ⊂ DL
 
 ### Q8. Explain the hierarchy:
 
-```text
 AI → ML → DL → LLM
-```
 
 ---
 

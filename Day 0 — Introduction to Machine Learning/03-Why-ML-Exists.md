@@ -26,8 +26,6 @@ By the end of this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## The Big Question
 
 Before Machine Learning existed, software engineers solved problems using traditional programming.
@@ -197,9 +195,7 @@ Then spammers adapt.
 
 ### Day 1
 
-```text
 FREE MONEY
-```
 
 Blocked.
 
@@ -207,9 +203,7 @@ Blocked.
 
 ### Day 2
 
-```text
 FrEe M0nEy
-```
 
 Passes through.
 
@@ -217,9 +211,7 @@ Passes through.
 
 ### Day 3
 
-```text
 Claim Your Prize
-```
 
 Passes through.
 
@@ -227,9 +219,7 @@ Passes through.
 
 ### Day 4
 
-```text
 Urgent Business Opportunity
-```
 
 Passes through.
 
@@ -247,13 +237,11 @@ if "URGENT" in email:
 
 Soon:
 
-```text
-10 rules
-100 rules
-1,000 rules
-10,000 rules
-50,000 rules
-```
+* 10 rules
+* 100 rules
+* 1,000 rules
+* 10,000 rules
+* 50,000 rules
 
 The system becomes impossible to maintain.
 
@@ -275,12 +263,10 @@ No finite list of rules can cover infinite possibilities.
 
 Every week:
 
-```text
-New Rule
-New Rule
-New Rule
-New Rule
-```
+* New Rule
+* New Rule
+* New Rule
+* New Rule
 
 Engineers spend all their time updating rules.
 
@@ -292,15 +278,11 @@ Legitimate emails become blocked.
 
 Example:
 
-```text
 Salary Cash Bonus Update
-```
 
 Contains the word:
 
-```text
 Cash
-```
 
 But isn't spam.
 
@@ -356,15 +338,11 @@ Without humans explicitly coding these rules.
 
 Traditional programming asks:
 
-```text
 What are the rules?
-```
 
 Machine Learning asks:
 
-```text
 What examples do we have?
-```
 
 This is a massive shift in thinking.
 
@@ -398,9 +376,7 @@ Impossible.
 
 Machine Learning learns patterns from:
 
-```text
 Billions of driving examples
-```
 
 instead of relying on manually written rules.
 
@@ -410,17 +386,13 @@ instead of relying on manually written rules.
 
 Translate:
 
-```text
 It's raining cats and dogs.
-```
 
 Literal translation fails.
 
 The phrase actually means:
 
-```text
 Heavy rain
-```
 
 Human language is full of:
 
@@ -457,9 +429,7 @@ Example:
 
 Output:
 
-```text
 4
-```
 
 Every time.
 
@@ -471,9 +441,7 @@ Output based on probabilities.
 
 Example:
 
-```text
 Spam Probability = 97%
-```
 
 Not certainty.
 
@@ -556,9 +524,7 @@ Examples:
 
 Predicts:
 
-```text
 What should you watch next?
-```
 
 ---
 
@@ -566,9 +532,7 @@ What should you watch next?
 
 Predicts:
 
-```text
 What should you buy next?
-```
 
 ---
 
@@ -576,9 +540,7 @@ What should you buy next?
 
 Predicts:
 
-```text
 Which search result is best?
-```
 
 ---
 
@@ -586,9 +548,7 @@ Which search result is best?
 
 Predict:
 
-```text
 Fraud or Genuine Transaction?
-```
 
 ---
 
@@ -615,9 +575,7 @@ False.
 
 For:
 
-```text
 2 + 2
-```
 
 Using ML would be ridiculous.
 
@@ -639,9 +597,7 @@ Machine Learning can often simplify complex decision systems.
 
 Many companies originally started with:
 
-```text
 Rule-Based Systems
-```
 
 Examples:
 
@@ -705,9 +661,7 @@ Unknown Patterns
 
 Imagine you are asked to build:
 
-```text
 A system that detects sarcasm in tweets.
-```
 
 Ask yourself:
 

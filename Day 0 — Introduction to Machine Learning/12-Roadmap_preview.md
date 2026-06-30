@@ -24,8 +24,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why This Section Matters
 
 Imagine trying to travel across an entire country without a map.
@@ -142,9 +140,7 @@ You have learned:
 
 ---
 
-### Goal
-
-Develop the correct mental model before touching algorithms.
+#**Goal:** Develop the correct mental model before touching algorithms.
 
 ```text id="rn84hm"
 Understanding
@@ -245,9 +241,7 @@ K-Means
 
 ---
 
-### Goal
-
-Understand how machines discover patterns from data.
+#**Goal:** Understand how machines discover patterns from data.
 
 ---
 
@@ -323,9 +317,7 @@ Sentiment Analysis
 
 ---
 
-### Goal
-
-Transform text into information that machines can understand.
+#**Goal:** Transform text into information that machines can understand.
 
 ---
 
@@ -413,9 +405,7 @@ Inference
 
 ---
 
-### Goal
-
-Understand how modern AI assistants work.
+#**Goal:** Understand how modern AI assistants work.
 
 ---
 
@@ -521,9 +511,7 @@ Tool Calling
 
 ---
 
-### Goal
-
-Build complete AI products.
+#**Goal:** Build complete AI products.
 
 ---
 

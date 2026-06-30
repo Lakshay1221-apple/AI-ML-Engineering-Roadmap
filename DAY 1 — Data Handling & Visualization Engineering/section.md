@@ -8,9 +8,7 @@ The curriculum should progress exactly like a real ML project:
 
 # DAY 1 — Data Handling & Visualization Engineering
 
-## Goal
-
-By the end of this module, learners will be able to:
+**Goal:** By the end of this module, learners will be able to:
 
 * Understand real-world datasets
 * Clean messy data
@@ -24,9 +22,7 @@ By the end of this module, learners will be able to:
 
 # SECTION 1 — Data Engineering Mindset
 
-## Learning Outcome
-
-Understand why data quality matters more than model complexity.
+**Learning Outcome:** Understand why data quality matters more than model complexity.
 
 ### Core Concepts
 
@@ -127,9 +123,7 @@ Using a real dataset:
 
 # SECTION 2 — NumPy Engineering
 
-## Learning Outcome
-
-Learn how numerical computation powers machine learning.
+**Learning Outcome:** Learn how numerical computation powers machine learning.
 
 ### Core Concepts
 
@@ -237,9 +231,7 @@ This creates intuition for neural networks later.
 
 # SECTION 3 — Pandas Engineering
 
-## Learning Outcome
-
-Master DataFrame operations used daily in ML jobs.
+**Learning Outcome:** Master DataFrame operations used daily in ML jobs.
 
 ### Core Concepts
 
@@ -323,9 +315,7 @@ Analyze a dataset and answer:
 
 # SECTION 4 — Data Cleaning Engineering
 
-## Learning Outcome
-
-Handle real-world messy datasets confidently.
+**Learning Outcome:** Handle real-world messy datasets confidently.
 
 ### Core Concepts
 
@@ -407,9 +397,7 @@ Create an automated report showing:
 
 # SECTION 5 — Feature Engineering Deep Dive
 
-## Learning Outcome
-
-Learn how feature engineering improves model performance.
+**Learning Outcome:** Learn how feature engineering improves model performance.
 
 ### Core Concepts
 
@@ -467,9 +455,7 @@ Create 10+ new features from an existing dataset and evaluate usefulness.
 
 # SECTION 6 — Exploratory Data Analysis (EDA)
 
-## Learning Outcome
-
-Extract meaningful insights before model building.
+**Learning Outcome:** Extract meaningful insights before model building.
 
 ### Core Concepts
 
@@ -525,9 +511,7 @@ Example:
 
 # SECTION 7 — Data Visualization Engineering
 
-## Learning Outcome
-
-Communicate insights effectively.
+**Learning Outcome:** Communicate insights effectively.
 
 ### Core Concepts
 
@@ -582,9 +566,7 @@ Build a dashboard with:
 
 # SECTION 8 — Advanced Data Manipulation
 
-## Learning Outcome
-
-Manipulate complex datasets efficiently.
+**Learning Outcome:** Manipulate complex datasets efficiently.
 
 ### Core Concepts
 
@@ -633,9 +615,7 @@ Merge multiple datasets and create a final analytics report.
 
 # SECTION 9 — Performance & Large Data Handling
 
-## Learning Outcome
-
-Work with large datasets efficiently.
+**Learning Outcome:** Work with large datasets efficiently.
 
 ### Core Concepts
 

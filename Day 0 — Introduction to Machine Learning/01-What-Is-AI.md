@@ -25,8 +25,6 @@ By the end of this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## What is Artificial Intelligence?
 
 Artificial Intelligence (AI) is the field of computer science focused on creating systems that can perform tasks that normally require human intelligence.
@@ -43,9 +41,7 @@ These tasks include:
 
 ---
 
-## Simple Definition
-
-> Artificial Intelligence is the ability of a machine to mimic human intelligence and perform tasks that normally require human thinking.
+**Simple Definition:** Artificial Intelligence is the ability of a machine to mimic human intelligence and perform tasks that normally require human thinking.
 
 ---
 
@@ -95,9 +91,7 @@ AI allows machines to learn these rules automatically from data.
 
 ---
 
-## Key Idea
-
-Traditional Programming:
+**Key Idea:** Traditional Programming:
 
 ```text
 Rules + Data
@@ -159,9 +153,7 @@ Artificial Intelligence (Largest Field)
 
 ### Remember
 
-```text
 LLMs ⊂ Deep Learning ⊂ Machine Learning ⊂ AI
-```
 
 Every LLM is Deep Learning.
 
@@ -322,10 +314,8 @@ AI analyzes:
 
 Goal:
 
-```text
-Predict:
-"What video are you most likely to watch next?"
-```
+* Predict:
+* "What video are you most likely to watch next?"
 
 ---
 
@@ -333,9 +323,7 @@ Predict:
 
 AI predicts:
 
-```text
 "What movie will keep you watching?"
-```
 
 Based on:
 
@@ -351,13 +339,10 @@ AI learns patterns from billions of translated sentences.
 
 Example:
 
-```text
-English:
-How are you?
-
-Hindi:
-आप कैसे हैं?
-```
+* English:
+* How are you?
+* Hindi:
+* आप कैसे हैं?
 
 Modern translation uses Deep Learning and Transformer models.
 

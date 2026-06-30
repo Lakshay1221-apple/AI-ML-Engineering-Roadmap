@@ -21,8 +21,6 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why Do We Need a Data Pipeline?
 
 Many beginners imagine Machine Learning as a simple process:
@@ -430,17 +428,13 @@ Raw information is not always useful.
 
 Consider:
 
-```text
 Date of Birth
-```
 
 This value is difficult for a model to interpret directly.
 
 Instead we can create:
 
-```text
 Age
-```
 
 which is more informative.
 
@@ -724,9 +718,7 @@ A model that worked six months ago may fail today.
 
 This phenomenon is known as:
 
-```text
 Data Drift
-```
 
 ---
 

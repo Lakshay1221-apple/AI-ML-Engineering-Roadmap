@@ -24,25 +24,17 @@ After completing this section, you should be able to:
 
 ---
 
-# Main Content
-
 ## Why This Section Matters
 
 Machine Learning is one of the most hyped technologies in history.
 
 Every day, social media is filled with claims such as:
 
-```text
-AI Will Replace Everyone
-
-Build an AI Startup in 7 Days
-
-No Need to Learn ML Anymore
-
-Prompt Engineering Is All You Need
-
-Deep Learning Solves Everything
-```
+* AI Will Replace Everyone
+* Build an AI Startup in 7 Days
+* No Need to Learn ML Anymore
+* Prompt Engineering Is All You Need
+* Deep Learning Solves Everything
 
 Many beginners enter the field with unrealistic expectations.
 
@@ -78,9 +70,7 @@ equals Machine Learning.
 
 The code above is only:
 
-```text
 Model Training
-```
 
 which represents a small part of the ML pipeline.
 
@@ -154,15 +144,11 @@ The quality of the data matters more than the quantity.
 
 Consider:
 
-```text
 10 Million Bad Records
-```
 
 versus
 
-```text
 100,000 High Quality Records
-```
 
 The smaller dataset often wins.
 
@@ -174,17 +160,13 @@ Imagine training a spam detector.
 
 Dataset A:
 
-```text
-1,000,000 Emails
-20% Wrong Labels
-```
+* 1,000,000 Emails
+* 20% Wrong Labels
 
 Dataset B:
 
-```text
-100,000 Emails
-Carefully Verified Labels
-```
+* 100,000 Emails
+* Carefully Verified Labels
 
 Dataset B may outperform Dataset A.
 
@@ -230,34 +212,25 @@ Machine Learning and Deep Learning solve different problems.
 
 Structured Data:
 
-```text
-Age
-Salary
-Credit Score
-Purchase History
-```
+* Age
+* Salary
+* Credit Score
+* Purchase History
 
 Often performs best with:
 
-```text
-XGBoost
-Random Forest
-LightGBM
-```
+* XGBoost
+* Random Forest
+* LightGBM
 
 ---
 
 ### Deep Learning Excels At
 
-```text
-Images
-
-Audio
-
-Video
-
-Language
-```
+* Images
+* Audio
+* Video
+* Language
 
 ---
 
@@ -265,9 +238,7 @@ Language
 
 Predicting:
 
-```text
 Employee Churn
-```
 
 using a company database?
 
@@ -277,12 +248,10 @@ Traditional ML often wins.
 
 Recognizing:
 
-```text
-Cats
-Dogs
-Faces
-Tumors
-```
+* Cats
+* Dogs
+* Faces
+* Tumors
 
 inside images?
 
@@ -292,17 +261,13 @@ Deep Learning dominates.
 
 ### The Reality
 
-```text
-Use The Right Tool
-For The Right Problem
-```
+* Use The Right Tool
+* For The Right Problem
 
 not
 
-```text
-Newest Tool
-For Every Problem
-```
+* Newest Tool
+* For Every Problem
 
 ---
 
@@ -314,9 +279,7 @@ This is one of the most dangerous misconceptions.
 
 Beginners often compare models using only:
 
-```text
 Accuracy
-```
 
 ---
 
@@ -324,23 +287,16 @@ Accuracy
 
 Suppose a fraud dataset contains:
 
-```text
-99,000 Legitimate Transactions
-
-1,000 Fraudulent Transactions
-```
+* 99,000 Legitimate Transactions
+* 1,000 Fraudulent Transactions
 
 A model predicts:
 
-```text
 Everything = Legitimate
-```
 
 Accuracy:
 
-```text
 99%
-```
 
 Amazing?
 
@@ -348,9 +304,7 @@ No.
 
 The model catches:
 
-```text
 0 Fraud Cases
-```
 
 ---
 
@@ -360,37 +314,23 @@ Different problems require different metrics.
 
 Classification:
 
-```text
-Accuracy
-
-Precision
-
-Recall
-
-F1 Score
-```
+* Accuracy
+* Precision
+* Recall
+* F1 Score
 
 Regression:
 
-```text
-MAE
-
-MSE
-
-RMSE
-
-R²
-```
+* MAE
+* MSE
+* RMSE
+* R²
 
 Business Metrics:
 
-```text
-Revenue
-
-Cost Savings
-
-Risk Reduction
-```
+* Revenue
+* Cost Savings
+* Risk Reduction
 
 ---
 
@@ -440,15 +380,11 @@ Artificial Intelligence
 
 ChatGPT is:
 
-```text
 An LLM
-```
 
 not
 
-```text
 The Entire AI Industry
-```
 
 ---
 
@@ -480,10 +416,8 @@ AI is far bigger than conversational chatbots.
 
 Many beginners believe:
 
-```text
-ChatGPT Understands
-Like A Human
-```
+* ChatGPT Understands
+* Like A Human
 
 This is not entirely true.
 
@@ -495,15 +429,11 @@ Models learn statistical patterns.
 
 Example:
 
-```text
 The capital of France is _____
-```
 
 The model predicts:
 
-```text
 Paris
-```
 
 because it has seen that pattern many times.
 
@@ -513,21 +443,14 @@ because it has seen that pattern many times.
 
 Current AI systems:
 
-```text
 Learn Patterns
-```
 
 They do not possess:
 
-```text
-Human Consciousness
-
-Human Experience
-
-Human Emotions
-
-Human Understanding
-```
+* Human Consciousness
+* Human Experience
+* Human Emotions
+* Human Understanding
 
 ---
 
@@ -565,9 +488,7 @@ Models degrade over time.
 
 This is known as:
 
-```text
 Data Drift
-```
 
 which we introduced in Section 8.
 
@@ -577,26 +498,18 @@ which we introduced in Section 8.
 
 Beginners often focus on:
 
-```text
-Algorithms
-Libraries
-Frameworks
-Buzzwords
-```
+* Algorithms
+* Libraries
+* Frameworks
+* Buzzwords
 
 Experienced engineers focus on:
 
-```text
-Problem Understanding
-
-Data Quality
-
-Feature Engineering
-
-Evaluation
-
-Business Value
-```
+* Problem Understanding
+* Data Quality
+* Feature Engineering
+* Evaluation
+* Business Value
 
 ---
 
@@ -630,33 +543,23 @@ One of the biggest differences between beginners and experienced ML engineers is
 
 Beginners optimize for:
 
-```text
 Highest Accuracy
-```
 
 Experienced engineers optimize for:
 
-```text
 Business Impact
-```
 
 A model with:
 
-```text
 92% Accuracy
-```
 
 that saves a company:
 
-```text
 $10 Million
-```
 
 is far more valuable than a model with:
 
-```text
 99% Accuracy
-```
 
 that solves no meaningful problem.
 
